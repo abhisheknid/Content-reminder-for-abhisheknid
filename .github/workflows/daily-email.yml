@@ -1,0 +1,27 @@
+name: Send daily writing prompt email
+
+on:
+  schedule:
+    # 9:00am IST (Asia/Kolkata, UTC+5:30) every day = 3:30am UTC
+    - cron: "30 3 * * *"
+  workflow_dispatch: {}
+
+jobs:
+  send-email:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - run: npm install
+
+      - name: Send today's prompt
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          EMAIL_TO: ${{ vars.EMAIL_TO }}
+          SITE_URL: ${{ vars.SITE_URL }}
+        run: npm run send-email

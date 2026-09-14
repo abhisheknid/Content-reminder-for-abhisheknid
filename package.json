@@ -1,0 +1,13 @@
+{
+  "name": "daily-writing-prompt-emailer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Emails one writing prompt a day from a 230-prompt bank, and serves a static site to browse them by category.",
+  "scripts": {
+    "send-email": "node scripts/send-daily-email.mjs"
+  },
+  "dependencies": {
+    "nodemailer": "^10.0.10"
+  }
+}

@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Today's Writing Prompt</title>
+  <meta name="description" content="One small writing prompt a day, so starting is never the hard part." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <div class="nav">
+      <span class="brand"><span class="brand-mark">✍️</span> Daily Prompt</span>
+      <a href="topics.html">Browse all 230 topics →</a>
+    </div>
+
+    <p class="eyebrow" id="today-date">Loading…</p>
+    <h1>Today, write about one thing.</h1>
+    <p class="sub">
+      One prompt, every morning, one sentence to start with. Not a content calendar —
+      just enough of a nudge to open a blank page before the day gets away from you.
+    </p>
+
+    <div class="hero-card">
+      <span class="pillar-tag" id="pillar-tag">—</span>
+      <h2 class="hero-title" id="prompt-title">Loading today's prompt…</h2>
+      <p class="nudge" id="nudge-text"></p>
+      <ul class="starters" id="starter-list"></ul>
+      <div class="cta-row">
+        <a class="btn btn-primary" id="write-link" href="#">Start writing this →</a>
+        <a class="btn btn-secondary" href="topics.html">See it in its category</a>
+      </div>
+    </div>
+
+    <p class="foot-note">
+      This prompt lands in <strong>abhishek@dopami.app</strong> automatically at 9am IST every day.
+      The company is the laboratory — write about how you think, not just what you shipped.
+      <br />Browse the full bank by category on the <a href="topics.html">topics page</a>.
+    </p>
+  </div>
+
+  <script type="module">
+    import { dailyIndex, todayLabel } from "./assets/rotation.js";
+    import { pickNudge, starterQuestions } from "./assets/copy.js";
+
+    async function init() {
+      const res = await fetch("data/topics.json");
+      const data = await res.json();
+      const items = data.categories.flatMap((c) => c.items.map((it) => ({ ...it, categoryName: c.name, categorySlug: c.slug })));
+
+      const idx = dailyIndex(data.total);
+      const today = items[idx];
+
+      document.getElementById("today-date").textContent = todayLabel();
+      document.getElementById("pillar-tag").textContent = today.categoryName;
+      document.getElementById("prompt-title").textContent = `"${today.title}"`;
+      document.getElementById("nudge-text").textContent = pickNudge(today.title);
+      document.getElementById("write-link").href = `https://docs.google.com/document/create`;
+
+      const starters = starterQuestions();
+      const list = document.getElementById("starter-list");
+      list.innerHTML = starters
+        .map((s) => {
+          const [label, rest] = s.split(/:\s(.+)/);
+          return `<li><strong>${label}:</strong> ${rest}</li>`;
+        })
+        .join("");
+
+      document.title = `${today.title} — Today's Writing Prompt`;
+    }
+
+    init();
+  </script>
+</body>
+</html>

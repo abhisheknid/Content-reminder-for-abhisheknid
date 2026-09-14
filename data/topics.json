@@ -1,0 +1,1144 @@
+{
+  "generatedFrom": "16-idea ADHD founder content bank, expanded to 230 recurring prompts across 12 pillars",
+  "total": 230,
+  "categories": [
+    {
+      "id": 1,
+      "slug": "building-creating",
+      "name": "Building & Creating",
+      "blurb": "Vision, bets, and what building has actually taught you.",
+      "items": [
+        {
+          "id": 1,
+          "title": "The Future I’m Building"
+        },
+        {
+          "id": 2,
+          "title": "Why I’m Building This"
+        },
+        {
+          "id": 3,
+          "title": "What I’m Building That Doesn’t Exist Yet"
+        },
+        {
+          "id": 4,
+          "title": "The Problem I Can’t Stop Thinking About"
+        },
+        {
+          "id": 5,
+          "title": "What I’m Betting On"
+        },
+        {
+          "id": 6,
+          "title": "The Bet I’m Making"
+        },
+        {
+          "id": 7,
+          "title": "What I Think the Future Will Look Like"
+        },
+        {
+          "id": 8,
+          "title": "The World I Want to Help Create"
+        },
+        {
+          "id": 9,
+          "title": "What I’m Trying to Change"
+        },
+        {
+          "id": 10,
+          "title": "What I’m Learning While Building"
+        },
+        {
+          "id": 11,
+          "title": "The Work Behind The Work"
+        },
+        {
+          "id": 12,
+          "title": "The Work Nobody Sees"
+        },
+        {
+          "id": 13,
+          "title": "What Building Has Taught Me"
+        },
+        {
+          "id": 14,
+          "title": "What Nobody Tells You About Building"
+        },
+        {
+          "id": 15,
+          "title": "The Parts of Building I Didn’t Expect"
+        },
+        {
+          "id": 16,
+          "title": "What Looks Easy From The Outside"
+        },
+        {
+          "id": 17,
+          "title": "The Unsexy Work Behind The Vision"
+        },
+        {
+          "id": 18,
+          "title": "What I’m Currently Obsessed With"
+        },
+        {
+          "id": 19,
+          "title": "The Question I’m Building Around"
+        },
+        {
+          "id": 20,
+          "title": "What I’m Trying to Prove"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "lessons-learning",
+      "name": "Lessons & Learning",
+      "blurb": "What experience taught you that books didn't.",
+      "items": [
+        {
+          "id": 21,
+          "title": "A Lesson From Listening"
+        },
+        {
+          "id": 22,
+          "title": "A Lesson I Learned the Hard Way"
+        },
+        {
+          "id": 23,
+          "title": "Something I Understand Differently Now"
+        },
+        {
+          "id": 24,
+          "title": "What Changed My Mind"
+        },
+        {
+          "id": 25,
+          "title": "The Advice I Ignored"
+        },
+        {
+          "id": 26,
+          "title": "The Advice I Wish I’d Taken"
+        },
+        {
+          "id": 27,
+          "title": "What Experience Taught Me That Books Didn’t"
+        },
+        {
+          "id": 28,
+          "title": "What Failure Taught Me"
+        },
+        {
+          "id": 29,
+          "title": "What Success Taught Me"
+        },
+        {
+          "id": 30,
+          "title": "What I Learned Too Late"
+        },
+        {
+          "id": 31,
+          "title": "Something I Used to Believe"
+        },
+        {
+          "id": 32,
+          "title": "Something I No Longer Believe"
+        },
+        {
+          "id": 33,
+          "title": "The Lesson I Keep Relearning"
+        },
+        {
+          "id": 34,
+          "title": "What I’m Still Figuring Out"
+        },
+        {
+          "id": 35,
+          "title": "What I’m Currently Learning"
+        },
+        {
+          "id": 36,
+          "title": "A Mistake Worth Repeating"
+        },
+        {
+          "id": 37,
+          "title": "The Most Expensive Lesson I’ve Learned"
+        },
+        {
+          "id": 38,
+          "title": "The Lesson Behind a Decision"
+        },
+        {
+          "id": 39,
+          "title": "What Someone Else Taught Me"
+        },
+        {
+          "id": 40,
+          "title": "The One Thing This Experience Changed"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "principles-philosophy",
+      "name": "Principles & Philosophy",
+      "blurb": "Your operating system — rules, mental models, what you optimize for.",
+      "items": [
+        {
+          "id": 41,
+          "title": "The Principles I Follow"
+        },
+        {
+          "id": 42,
+          "title": "The Principles I Refuse to Compromise"
+        },
+        {
+          "id": 43,
+          "title": "What I Believe Will Matter"
+        },
+        {
+          "id": 44,
+          "title": "What I Believe No Longer Matters"
+        },
+        {
+          "id": 45,
+          "title": "The Rules I Live By"
+        },
+        {
+          "id": 46,
+          "title": "The Rules I Broke"
+        },
+        {
+          "id": 47,
+          "title": "My Personal Operating System"
+        },
+        {
+          "id": 48,
+          "title": "The Mental Models I Use"
+        },
+        {
+          "id": 49,
+          "title": "The Questions I Ask Before Deciding"
+        },
+        {
+          "id": 50,
+          "title": "What I Optimize For"
+        },
+        {
+          "id": 51,
+          "title": "What I Refuse to Optimize For"
+        },
+        {
+          "id": 52,
+          "title": "My Definition of Success"
+        },
+        {
+          "id": 53,
+          "title": "My Definition of Enough"
+        },
+        {
+          "id": 54,
+          "title": "What I Think Makes Great Work"
+        },
+        {
+          "id": 55,
+          "title": "What I Think Makes a Great Life"
+        },
+        {
+          "id": 56,
+          "title": "What I Value More With Age"
+        },
+        {
+          "id": 57,
+          "title": "What I Value Less With Age"
+        },
+        {
+          "id": 58,
+          "title": "The Difference Between Important and Urgent"
+        },
+        {
+          "id": 59,
+          "title": "What I Think Is Worth Sacrificing For"
+        },
+        {
+          "id": 60,
+          "title": "The Things I Won’t Trade for Success"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "failure-change-growth",
+      "name": "Failure, Change & Growth",
+      "blurb": "What failure took, what it gave, what you had to unlearn.",
+      "items": [
+        {
+          "id": 61,
+          "title": "What Changed After Failure"
+        },
+        {
+          "id": 62,
+          "title": "What Failure Took From Me"
+        },
+        {
+          "id": 63,
+          "title": "What Failure Gave Me"
+        },
+        {
+          "id": 64,
+          "title": "What I Would Do Differently"
+        },
+        {
+          "id": 65,
+          "title": "What I Would Never Do Again"
+        },
+        {
+          "id": 66,
+          "title": "The Decision That Changed Everything"
+        },
+        {
+          "id": 67,
+          "title": "The Period That Changed Me"
+        },
+        {
+          "id": 68,
+          "title": "What I Had to Let Go Of"
+        },
+        {
+          "id": 69,
+          "title": "What I’m Still Recovering From"
+        },
+        {
+          "id": 70,
+          "title": "What Starting Over Taught Me"
+        },
+        {
+          "id": 71,
+          "title": "What I Learned From Losing"
+        },
+        {
+          "id": 72,
+          "title": "What I Learned From Being Wrong"
+        },
+        {
+          "id": 73,
+          "title": "The Version of Me I Had to Outgrow"
+        },
+        {
+          "id": 74,
+          "title": "What I Had to Unlearn to Grow"
+        },
+        {
+          "id": 75,
+          "title": "Things I’m Unlearning"
+        },
+        {
+          "id": 76,
+          "title": "Things I’m Relearning"
+        },
+        {
+          "id": 77,
+          "title": "What I Wish I Knew 10 Years Ago"
+        },
+        {
+          "id": 78,
+          "title": "What I Would Tell My Younger Self"
+        },
+        {
+          "id": 79,
+          "title": "The Person I Was vs. The Person I’m Becoming"
+        },
+        {
+          "id": 80,
+          "title": "What Changed When I Stopped Trying to Prove Myself"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "contrarian-pov",
+      "name": "Contrarian / Point of View",
+      "blurb": "Unpopular opinions and what everyone gets wrong.",
+      "items": [
+        {
+          "id": 81,
+          "title": "Unpopular Business Opinion"
+        },
+        {
+          "id": 82,
+          "title": "Things I See Differently"
+        },
+        {
+          "id": 83,
+          "title": "An Opinion I Know People Will Disagree With"
+        },
+        {
+          "id": 84,
+          "title": "What Everyone Gets Wrong About ___"
+        },
+        {
+          "id": 85,
+          "title": "The Advice I Think Is Overrated"
+        },
+        {
+          "id": 86,
+          "title": "The Business Advice I’d Ignore"
+        },
+        {
+          "id": 87,
+          "title": "What I Think We’re Optimizing for Wrong"
+        },
+        {
+          "id": 88,
+          "title": "A Popular Idea I Don’t Buy"
+        },
+        {
+          "id": 89,
+          "title": "A “Bad” Idea I Think Is Actually Good"
+        },
+        {
+          "id": 90,
+          "title": "What Sounds Smart But Isn’t"
+        },
+        {
+          "id": 91,
+          "title": "What Looks Like Progress But Isn’t"
+        },
+        {
+          "id": 92,
+          "title": "What Nobody Is Talking About"
+        },
+        {
+          "id": 93,
+          "title": "The Problem With the Conventional Wisdom"
+        },
+        {
+          "id": 94,
+          "title": "What I’d Do If I Were Starting Today"
+        },
+        {
+          "id": 95,
+          "title": "What I’d Do If I Had $0"
+        },
+        {
+          "id": 96,
+          "title": "What I’d Do If I Had to Start Again"
+        },
+        {
+          "id": 97,
+          "title": "The Industry Assumption I’d Challenge"
+        },
+        {
+          "id": 98,
+          "title": "What I Think Will Be Obsolete"
+        },
+        {
+          "id": 99,
+          "title": "What I Think Will Become More Valuable"
+        },
+        {
+          "id": 100,
+          "title": "The Trend I Think People Are Underestimating"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "slug": "work-craft-career",
+      "name": "Work, Craft & Career",
+      "blurb": "Craft, hiring, management, and the work you want to be known for.",
+      "items": [
+        {
+          "id": 101,
+          "title": "The Work Nobody Sees"
+        },
+        {
+          "id": 102,
+          "title": "The Skill That Changed My Career"
+        },
+        {
+          "id": 103,
+          "title": "What Clients Taught Me"
+        },
+        {
+          "id": 104,
+          "title": "What Working With Great People Taught Me"
+        },
+        {
+          "id": 105,
+          "title": "What Bad Workplaces Taught Me"
+        },
+        {
+          "id": 106,
+          "title": "What Makes Someone Exceptional at Their Work"
+        },
+        {
+          "id": 107,
+          "title": "What I’ve Learned From Hiring"
+        },
+        {
+          "id": 108,
+          "title": "What I’ve Learned From Being Hired"
+        },
+        {
+          "id": 109,
+          "title": "What I’ve Learned From Managing People"
+        },
+        {
+          "id": 110,
+          "title": "What I’ve Learned From Being Managed"
+        },
+        {
+          "id": 111,
+          "title": "The Difference Between Good and Great Work"
+        },
+        {
+          "id": 112,
+          "title": "How I Decide What Deserves My Time"
+        },
+        {
+          "id": 113,
+          "title": "What I Don’t Do Anymore at Work"
+        },
+        {
+          "id": 114,
+          "title": "Things I No Longer Chase"
+        },
+        {
+          "id": 115,
+          "title": "The Career Advice I’d Give Today"
+        },
+        {
+          "id": 116,
+          "title": "What I Would Optimize My Career Around"
+        },
+        {
+          "id": 117,
+          "title": "The Career Mistake I Would Avoid"
+        },
+        {
+          "id": 118,
+          "title": "Why I Chose This Path"
+        },
+        {
+          "id": 119,
+          "title": "What My Career Has Prepared Me For"
+        },
+        {
+          "id": 120,
+          "title": "The Work I Want to Be Known For"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "slug": "curiosity-thinking",
+      "name": "Curiosity & Thinking",
+      "blurb": "Rabbit holes, patterns, and the questions you can't stop asking.",
+      "items": [
+        {
+          "id": 121,
+          "title": "What Keeps Me Curious"
+        },
+        {
+          "id": 122,
+          "title": "The Question I Can’t Stop Thinking About"
+        },
+        {
+          "id": 123,
+          "title": "Something I Changed My Mind About This Week"
+        },
+        {
+          "id": 124,
+          "title": "A Rabbit Hole I Went Down"
+        },
+        {
+          "id": 125,
+          "title": "Something I Learned Today"
+        },
+        {
+          "id": 126,
+          "title": "A Connection I Just Made"
+        },
+        {
+          "id": 127,
+          "title": "Two Things That Seem Unrelated But Aren’t"
+        },
+        {
+          "id": 128,
+          "title": "Something Everyone Should Think About"
+        },
+        {
+          "id": 129,
+          "title": "A Question With No Easy Answer"
+        },
+        {
+          "id": 130,
+          "title": "What I’m Trying to Understand"
+        },
+        {
+          "id": 131,
+          "title": "An Idea That Keeps Coming Back"
+        },
+        {
+          "id": 132,
+          "title": "A Pattern I’m Starting to Notice"
+        },
+        {
+          "id": 133,
+          "title": "Something I Read That Changed My Thinking"
+        },
+        {
+          "id": 134,
+          "title": "Something I Heard That Stayed With Me"
+        },
+        {
+          "id": 135,
+          "title": "The Most Interesting Thing I Learned This Week"
+        },
+        {
+          "id": 136,
+          "title": "A Thought I Can’t Quite Shake"
+        },
+        {
+          "id": 137,
+          "title": "The Rabbit Hole Worth Going Down"
+        },
+        {
+          "id": 138,
+          "title": "What I’m Curious About Next"
+        },
+        {
+          "id": 139,
+          "title": "The Connection Nobody Seems to Be Making"
+        },
+        {
+          "id": 140,
+          "title": "What This Made Me Think About"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "slug": "people-relationships",
+      "name": "People & Relationships",
+      "blurb": "What people — mentors, friends, difficult people — have taught you.",
+      "items": [
+        {
+          "id": 141,
+          "title": "What People Have Taught Me"
+        },
+        {
+          "id": 142,
+          "title": "The People Who Changed How I Think"
+        },
+        {
+          "id": 143,
+          "title": "What Great Leaders Have in Common"
+        },
+        {
+          "id": 144,
+          "title": "What I’ve Learned From Mentors"
+        },
+        {
+          "id": 145,
+          "title": "What I’ve Learned From Friends"
+        },
+        {
+          "id": 146,
+          "title": "What I’ve Learned From Difficult People"
+        },
+        {
+          "id": 147,
+          "title": "What Makes Me Trust Someone"
+        },
+        {
+          "id": 148,
+          "title": "What Makes Me Lose Trust"
+        },
+        {
+          "id": 149,
+          "title": "The Difference Between Charisma and Character"
+        },
+        {
+          "id": 150,
+          "title": "What I Look For in People"
+        },
+        {
+          "id": 151,
+          "title": "What I’ve Learned About Collaboration"
+        },
+        {
+          "id": 152,
+          "title": "What I’ve Learned About Conflict"
+        },
+        {
+          "id": 153,
+          "title": "What I’ve Learned About Boundaries"
+        },
+        {
+          "id": 154,
+          "title": "The Importance of Who You Surround Yourself With"
+        },
+        {
+          "id": 155,
+          "title": "People Who Challenge Your Thinking Are Valuable"
+        },
+        {
+          "id": 156,
+          "title": "What I Wish More People Understood About Ambition"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "slug": "life-personal-evolution",
+      "name": "Life & Personal Evolution",
+      "blurb": "What you're saying yes and no to, and the life you're designing.",
+      "items": [
+        {
+          "id": 157,
+          "title": "Things I’m No Longer Chasing"
+        },
+        {
+          "id": 158,
+          "title": "Things I Want More of"
+        },
+        {
+          "id": 159,
+          "title": "Things I Want Less of"
+        },
+        {
+          "id": 160,
+          "title": "What I’m Saying No To"
+        },
+        {
+          "id": 161,
+          "title": "What I’m Saying Yes To"
+        },
+        {
+          "id": 162,
+          "title": "What Feels Different This Year"
+        },
+        {
+          "id": 163,
+          "title": "What Matters More to Me Now"
+        },
+        {
+          "id": 164,
+          "title": "What Doesn’t Matter to Me Anymore"
+        },
+        {
+          "id": 165,
+          "title": "What I’m Protecting My Energy From"
+        },
+        {
+          "id": 166,
+          "title": "What Gives Me Energy"
+        },
+        {
+          "id": 167,
+          "title": "What Drains Me"
+        },
+        {
+          "id": 168,
+          "title": "What I’m Making More Time For"
+        },
+        {
+          "id": 169,
+          "title": "What I’m Making Less Time For"
+        },
+        {
+          "id": 170,
+          "title": "The Life I’m Designing"
+        },
+        {
+          "id": 171,
+          "title": "What Does “A Good Life” Mean to Me?"
+        },
+        {
+          "id": 172,
+          "title": "What I’m Learning About Happiness"
+        },
+        {
+          "id": 173,
+          "title": "What I’m Learning About Ambition"
+        },
+        {
+          "id": 174,
+          "title": "What I’m Learning About Freedom"
+        },
+        {
+          "id": 175,
+          "title": "What I’m Learning About Time"
+        },
+        {
+          "id": 176,
+          "title": "What I Don’t Want to Wake Up at 50 Regretting"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "slug": "behind-the-scenes",
+      "name": "Behind-the-Scenes / Build in Public",
+      "blurb": "Build in public: decisions, experiments, what users taught you.",
+      "items": [
+        {
+          "id": 177,
+          "title": "What Happened This Week"
+        },
+        {
+          "id": 178,
+          "title": "What Went Wrong This Week"
+        },
+        {
+          "id": 179,
+          "title": "What Went Surprisingly Right"
+        },
+        {
+          "id": 180,
+          "title": "The Decision I’m Wrestling With"
+        },
+        {
+          "id": 181,
+          "title": "The Decision We Just Made"
+        },
+        {
+          "id": 182,
+          "title": "Why We Chose X Over Y"
+        },
+        {
+          "id": 183,
+          "title": "The Experiment We’re Running"
+        },
+        {
+          "id": 184,
+          "title": "What We Expected vs. What Happened"
+        },
+        {
+          "id": 185,
+          "title": "What the Data Is Telling Us"
+        },
+        {
+          "id": 186,
+          "title": "What Users Are Teaching Us"
+        },
+        {
+          "id": 187,
+          "title": "What We Changed Because of Users"
+        },
+        {
+          "id": 188,
+          "title": "A Product Decision I Changed My Mind About"
+        },
+        {
+          "id": 189,
+          "title": "The Feature We Almost Built"
+        },
+        {
+          "id": 190,
+          "title": "The Feature We Killed"
+        },
+        {
+          "id": 191,
+          "title": "What We’re Not Building"
+        },
+        {
+          "id": 192,
+          "title": "The Problem We’re Still Trying to Solve"
+        },
+        {
+          "id": 193,
+          "title": "Our Biggest Assumption"
+        },
+        {
+          "id": 194,
+          "title": "The Assumption That Turned Out to Be Wrong"
+        },
+        {
+          "id": 195,
+          "title": "What Nobody Sees Behind the Launch"
+        },
+        {
+          "id": 196,
+          "title": "What Happens After the Launch"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "slug": "one-idea-series",
+      "name": "The \"One Idea\" Series",
+      "blurb": "Low-effort, high-frequency: one small idea, said clearly.",
+      "items": [
+        {
+          "id": 197,
+          "title": "One Idea I’m Thinking About"
+        },
+        {
+          "id": 198,
+          "title": "One Question I’m Exploring"
+        },
+        {
+          "id": 199,
+          "title": "One Thing I Learned Today"
+        },
+        {
+          "id": 200,
+          "title": "One Thing That Changed My Mind"
+        },
+        {
+          "id": 201,
+          "title": "One Pattern I Noticed"
+        },
+        {
+          "id": 202,
+          "title": "One Assumption I’m Challenging"
+        },
+        {
+          "id": 203,
+          "title": "One Belief I’m Testing"
+        },
+        {
+          "id": 204,
+          "title": "One Decision I’m Making"
+        },
+        {
+          "id": 205,
+          "title": "One Thing I’m Saying No To"
+        },
+        {
+          "id": 206,
+          "title": "One Thing I’m Grateful For"
+        },
+        {
+          "id": 207,
+          "title": "One Thing I’m Curious About"
+        },
+        {
+          "id": 208,
+          "title": "One Thing I’d Do Differently"
+        },
+        {
+          "id": 209,
+          "title": "One Thing I Wish I’d Known"
+        },
+        {
+          "id": 210,
+          "title": "One Idea Worth Stealing"
+        },
+        {
+          "id": 211,
+          "title": "One Idea Worth Rejecting"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "slug": "founder-philosophy",
+      "name": "Your \"Founder Philosophy\" Series",
+      "blurb": "How you think about risk, AI, leadership, legacy, and more.",
+      "items": [
+        {
+          "id": 212,
+          "title": "How I Think About Building"
+        },
+        {
+          "id": 213,
+          "title": "How I Think About Risk"
+        },
+        {
+          "id": 214,
+          "title": "How I Think About Failure"
+        },
+        {
+          "id": 215,
+          "title": "How I Think About Money"
+        },
+        {
+          "id": 216,
+          "title": "How I Think About Ambition"
+        },
+        {
+          "id": 217,
+          "title": "How I Think About Competition"
+        },
+        {
+          "id": 218,
+          "title": "How I Think About Talent"
+        },
+        {
+          "id": 219,
+          "title": "How I Think About Leadership"
+        },
+        {
+          "id": 220,
+          "title": "How I Think About Creativity"
+        },
+        {
+          "id": 221,
+          "title": "How I Think About Technology"
+        },
+        {
+          "id": 222,
+          "title": "How I Think About AI"
+        },
+        {
+          "id": 223,
+          "title": "How I Think About Design"
+        },
+        {
+          "id": 224,
+          "title": "How I Think About Customers"
+        },
+        {
+          "id": 225,
+          "title": "How I Think About Time"
+        },
+        {
+          "id": 226,
+          "title": "How I Think About Attention"
+        },
+        {
+          "id": 227,
+          "title": "How I Think About Freedom"
+        },
+        {
+          "id": 228,
+          "title": "How I Think About Meaning"
+        },
+        {
+          "id": 229,
+          "title": "How I Think About Legacy"
+        },
+        {
+          "id": 230,
+          "title": "How I Think About Reinvention"
+        }
+      ]
+    }
+  ],
+  "starterPack": [
+    {
+      "id": 1,
+      "title": "The Future I’m Building",
+      "categoryId": 1,
+      "categorySlug": "building-creating",
+      "categoryName": "Building & Creating",
+      "communicates": "Vision"
+    },
+    {
+      "id": 10,
+      "title": "What I’m Learning While Building",
+      "categoryId": 1,
+      "categorySlug": "building-creating",
+      "categoryName": "Building & Creating",
+      "communicates": "Intellectual curiosity"
+    },
+    {
+      "id": 24,
+      "title": "What Changed My Mind",
+      "categoryId": 2,
+      "categorySlug": "lessons-learning",
+      "categoryName": "Lessons & Learning",
+      "communicates": "Intellectual honesty"
+    },
+    {
+      "id": 82,
+      "title": "Things I See Differently",
+      "categoryId": 5,
+      "categorySlug": "contrarian-pov",
+      "categoryName": "Contrarian / Point of View",
+      "communicates": "Point of view"
+    },
+    {
+      "id": 12,
+      "title": "The Work Nobody Sees",
+      "categoryId": 1,
+      "categorySlug": "building-creating",
+      "categoryName": "Building & Creating",
+      "communicates": "Authenticity"
+    },
+    {
+      "id": 28,
+      "title": "What Failure Taught Me",
+      "categoryId": 2,
+      "categorySlug": "lessons-learning",
+      "categoryName": "Lessons & Learning",
+      "communicates": "Experience"
+    },
+    {
+      "id": 41,
+      "title": "The Principles I Follow",
+      "categoryId": 3,
+      "categorySlug": "principles-philosophy",
+      "categoryName": "Principles & Philosophy",
+      "communicates": "Philosophy"
+    },
+    {
+      "id": 75,
+      "title": "Things I’m Unlearning",
+      "categoryId": 4,
+      "categorySlug": "failure-change-growth",
+      "categoryName": "Failure, Change & Growth",
+      "communicates": "Growth"
+    },
+    {
+      "id": 160,
+      "title": "What I’m Saying No To",
+      "categoryId": 9,
+      "categorySlug": "life-personal-evolution",
+      "categoryName": "Life & Personal Evolution",
+      "communicates": "Discipline"
+    },
+    {
+      "id": 5,
+      "title": "What I’m Betting On",
+      "categoryId": 1,
+      "categorySlug": "building-creating",
+      "categoryName": "Building & Creating",
+      "communicates": "Conviction"
+    },
+    {
+      "id": 122,
+      "title": "The Question I Can’t Stop Thinking About",
+      "categoryId": 7,
+      "categorySlug": "curiosity-thinking",
+      "categoryName": "Curiosity & Thinking",
+      "communicates": "Curiosity"
+    },
+    {
+      "id": 64,
+      "title": "What I Would Do Differently",
+      "categoryId": 4,
+      "categorySlug": "failure-change-growth",
+      "categoryName": "Failure, Change & Growth",
+      "communicates": "Wisdom"
+    },
+    {
+      "id": 81,
+      "title": "Unpopular Business Opinion",
+      "categoryId": 5,
+      "categorySlug": "contrarian-pov",
+      "categoryName": "Contrarian / Point of View",
+      "communicates": "Contrarian thinking"
+    },
+    {
+      "id": 141,
+      "title": "What People Have Taught Me",
+      "categoryId": 8,
+      "categorySlug": "people-relationships",
+      "categoryName": "People & Relationships",
+      "communicates": "Humility"
+    },
+    {
+      "id": 170,
+      "title": "The Life I’m Designing",
+      "categoryId": 9,
+      "categorySlug": "life-personal-evolution",
+      "categoryName": "Life & Personal Evolution",
+      "communicates": "Personal philosophy"
+    }
+  ]
+}
