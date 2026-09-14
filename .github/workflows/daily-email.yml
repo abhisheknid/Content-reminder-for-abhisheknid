@@ -1,10 +1,16 @@
-name: Send daily writing prompt email
+name: Send daily writing prompt email (manual/backup)
 
+# Manual-trigger only. The live daily send at 9am IST currently runs via a
+# Claude Routine bound to the Claude Code session that already has Gmail
+# connected (no SMTP secrets needed) — see README.md. This workflow is kept
+# as an independent fallback: add GMAIL_USER / GMAIL_APP_PASSWORD as repo
+# secrets and re-enable the schedule below if you ever want the send to run
+# on GitHub's own infra instead of (or in addition to — don't do both) the
+# Claude Routine.
 on:
-  schedule:
-    # 9:00am IST (Asia/Kolkata, UTC+5:30) every day = 3:30am UTC
-    - cron: "30 3 * * *"
   workflow_dispatch: {}
+  # schedule:
+  #   - cron: "30 3 * * *" # 9:00am IST (UTC+5:30) — re-enable only if the Claude Routine is disabled
 
 jobs:
   send-email:

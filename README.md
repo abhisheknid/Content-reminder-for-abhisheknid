@@ -21,9 +21,18 @@ Both the email and the site compute "today's prompt" the same way (see
 means every prompt gets used once every ~230 days (7.5 months), deterministically, with no database
 or state to maintain — the site and the email will always agree on what "today" is.
 
-## Setup
+## How the daily email is actually sent (currently active)
 
-### 1. Generate a Gmail App Password
+The live 9am IST send runs as a **Claude Routine** (a scheduled trigger) bound to the Claude Code
+session that built this project, which already has your Gmail account connected — so it sends
+through that connection directly, with no SMTP password stored anywhere. There's nothing to
+configure for this path; it's already running.
+
+[`.github/workflows/daily-email.yml`](.github/workflows/daily-email.yml) is kept as an **independent,
+manual-only backup** (see below) in case you'd rather move the send onto GitHub's own infrastructure
+instead of relying on a Claude session. Don't enable both at once — that would double-send.
+
+### 1. (Optional) Generate a Gmail App Password — only if you want the GitHub Actions backup path
 
 The email is sent via Gmail SMTP using an **App Password** (not your normal Gmail password):
 
@@ -35,7 +44,7 @@ The email is sent via Gmail SMTP using an **App Password** (not your normal Gmai
 You can use `abhishek@dopami.app` itself as the sender if it's a Google Workspace account with
 IMAP/SMTP enabled, or any other Gmail address you control — the recipient is configured separately.
 
-### 2. Add GitHub Actions secrets & variables
+### 2. (Optional) Add GitHub Actions secrets & variables — only for the backup path
 
 In the repo: **Settings → Secrets and variables → Actions**
 
@@ -57,12 +66,13 @@ In the repo: **Settings → Secrets and variables → Actions**
 workflow publishes the site automatically on every push to `main`. First deploy can take a minute or
 two; after that your site is live at the `SITE_URL` above.
 
-### 4. Confirm the email workflow is enabled
+### 4. (Optional) Switch fully to the GitHub Actions backup path
 
-[`daily-email.yml`](.github/workflows/daily-email.yml) runs on a cron schedule (`30 3 * * *` UTC =
-9:00am IST) once it's on the `main` branch. GitHub disables scheduled workflows automatically after
-**60 days with no repository activity** — if the email stops arriving, check
-**Actions → Send daily writing prompt email** and re-enable it (or just push a commit).
+To stop relying on the Claude Routine and run entirely on GitHub's infra instead: uncomment the
+`schedule:` block in [`daily-email.yml`](.github/workflows/daily-email.yml), make sure secrets are
+set (step 2), and ask whoever set up the Claude Routine to disable/delete it so you don't get two
+emails. GitHub disables scheduled workflows automatically after **60 days with no repository
+activity** — something to know if you go this route.
 
 ## Testing
 
