@@ -39,23 +39,26 @@ function buildEmail(today, data) {
     })
     .join("");
 
-  const html = `
-  <div style="font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:#faf8f5;padding:28px 16px;">
-    <div style="max-width:560px;margin:0 auto;">
-      <p style="font-size:12.5px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:#3d5a80;margin:0 0 8px;">${date}</p>
-      <h1 style="font-size:24px;line-height:1.25;margin:0 0 20px;color:#24211d;">Today, write about one thing.</h1>
+  const headingFont = "'Arial Black', Arial, 'Segoe UI', system-ui, sans-serif";
+  const bodyFont = "'Segoe UI', system-ui, -apple-system, sans-serif";
 
-      <div style="background:#ffffff;border:1px solid #e7e1d8;border-radius:16px;padding:26px;">
-        <span style="display:inline-block;font-size:12.5px;font-weight:700;color:#3d5a80;background:#eef2f7;padding:5px 11px;border-radius:100px;margin-bottom:14px;">${today.categoryName}</span>
-        <h2 style="font-size:22px;line-height:1.3;margin:0 0 16px;color:#24211d;">"${today.title}"</h2>
-        <p style="font-size:15px;color:#635d54;margin:0 0 20px;padding:14px 16px;background:#fdece7;border-left:3px solid #e07a5f;border-radius:8px;">${nudge}</p>
-        <ul style="padding:0 0 0 18px;margin:0 0 22px;font-size:14.5px;color:#635d54;">${starterHtml}</ul>
-        <a href="https://docs.google.com/document/create" style="display:inline-block;background:#3d5a80;color:#ffffff;text-decoration:none;font-weight:700;font-size:15px;padding:12px 20px;border-radius:100px;">Start writing this →</a>
+  const html = `
+  <div style="font-family:${bodyFont};background:#faf9f6;padding:28px 16px;">
+    <div style="max-width:560px;margin:0 auto;">
+      <p style="font-family:${headingFont};font-size:12.5px;font-weight:800;letter-spacing:0.04em;text-transform:uppercase;color:#6b6a63;margin:0 0 10px;">${date}</p>
+      <h1 style="font-family:${headingFont};font-weight:800;font-size:26px;line-height:1.15;letter-spacing:-0.01em;margin:0 0 22px;color:#14130f;">Today,<br />write one thing.</h1>
+
+      <div style="background:#ffffff;border:1px solid #e7e3da;border-radius:18px;padding:28px;">
+        <span style="display:inline-block;font-family:${headingFont};font-size:12px;font-weight:800;letter-spacing:0.03em;text-transform:uppercase;color:#6b6a63;margin-bottom:16px;">● ${today.categoryName}</span>
+        <h2 style="font-family:${headingFont};font-weight:800;font-size:22px;line-height:1.25;letter-spacing:-0.01em;margin:0 0 16px;color:#14130f;">"${today.title}"</h2>
+        <p style="font-size:15px;color:#14130f;margin:0 0 22px;padding:16px 18px;background:#fbe9d6;border-radius:12px;">${nudge}</p>
+        <ul style="padding:0 0 0 18px;margin:0 0 24px;font-size:14.5px;color:#6b6a63;">${starterHtml}</ul>
+        <a href="https://docs.google.com/document/create" style="display:inline-block;background:#14130f;color:#faf9f6;text-decoration:none;font-family:${headingFont};font-weight:800;font-size:15px;padding:14px 24px;border-radius:100px;">Start writing this →</a>
       </div>
 
-      <p style="font-size:13px;color:#635d54;margin-top:22px;">
-        Prompt #${today.id} of 230, from the <strong>${today.categoryName}</strong> pillar.
-        <a href="${SITE_URL}/topics.html" style="color:#3d5a80;">Browse all topics by category →</a>
+      <p style="font-size:13px;color:#6b6a63;margin-top:22px;">
+        Prompt #${today.id} of 230, from the <strong style="color:#14130f;">${today.categoryName}</strong> pillar.
+        <a href="${SITE_URL}/topics.html" style="color:#14130f;font-weight:700;">Browse all topics by category →</a>
       </p>
     </div>
   </div>`;

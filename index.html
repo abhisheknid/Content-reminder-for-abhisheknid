@@ -10,24 +10,48 @@
 <body>
   <div class="wrap">
     <div class="nav">
-      <span class="brand"><span class="brand-mark">✍️</span> Daily Prompt</span>
-      <a href="topics.html">Browse all 230 topics →</a>
+      <a class="brand" href="index.html"><span aria-hidden="true">✍️</span> Daily Prompt</a>
+      <div class="nav-links">
+        <span class="dot" aria-hidden="true"></span>
+        <a href="topics.html">Browse topics</a>
+        <a href="topics.html#search">Search</a>
+      </div>
     </div>
 
-    <p class="eyebrow" id="today-date">Loading…</p>
-    <h1>Today, write about one thing.</h1>
-    <p class="sub">
-      One prompt, every morning, one sentence to start with. Not a content calendar —
-      just enough of a nudge to open a blank page before the day gets away from you.
-    </p>
+    <div class="hero">
+      <div>
+        <p class="eyebrow"><span class="dot"></span> <span id="today-date">Loading…</span></p>
+        <h1>Today,<br />write one thing.</h1>
+        <p class="sub">
+          One prompt, every morning, one sentence to start with. Not a content calendar —
+          just enough of a nudge to open a blank page before the day gets away from you.
+        </p>
+      </div>
+      <svg class="hero-art" viewBox="0 0 260 220" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <rect x="30" y="18" width="160" height="186" rx="16" />
+        <line x1="54" y1="58" x2="166" y2="58" />
+        <line x1="54" y1="83" x2="166" y2="83" />
+        <line x1="54" y1="108" x2="142" y2="108" />
+        <line x1="54" y1="133" x2="112" y2="133" stroke-dasharray="2 10" />
+        <g transform="translate(150,108) rotate(45)">
+          <line x1="0" y1="0" x2="0" y2="86" stroke-width="9" />
+          <path d="M -8 86 L 8 86 L 0 104 Z" fill="currentColor" stroke="none" />
+        </g>
+        <path d="M178 188 q9 -11 18 0 q9 11 18 0" />
+      </svg>
+    </div>
 
     <div class="hero-card">
-      <span class="pillar-tag" id="pillar-tag">—</span>
+      <span class="pillar-tag"><span class="dot"></span> <span id="pillar-tag">—</span></span>
       <h2 class="hero-title" id="prompt-title">Loading today's prompt…</h2>
       <p class="nudge" id="nudge-text"></p>
-      <ul class="starters" id="starter-list"></ul>
+
+      <div class="features" id="starter-list"></div>
+
       <div class="cta-row">
-        <a class="btn btn-primary" id="write-link" href="#">Start writing this →</a>
+        <div class="btn-wrap">
+          <a class="btn btn-primary" id="write-link" href="#">Start writing this →</a>
+        </div>
         <a class="btn btn-secondary" href="topics.html">See it in its category</a>
       </div>
     </div>
@@ -62,7 +86,7 @@
       list.innerHTML = starters
         .map((s) => {
           const [label, rest] = s.split(/:\s(.+)/);
-          return `<li><strong>${label}:</strong> ${rest}</li>`;
+          return `<div class="feature"><h3>${label}</h3><p>${rest}</p></div>`;
         })
         .join("");
 

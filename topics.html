@@ -10,20 +10,23 @@
 <body>
   <div class="wrap wide">
     <div class="nav">
-      <span class="brand"><span class="brand-mark">✍️</span> Daily Prompt</span>
-      <a href="index.html">← Today's prompt</a>
+      <a class="brand" href="index.html"><span aria-hidden="true">✍️</span> Daily Prompt</a>
+      <div class="nav-links">
+        <span class="dot" aria-hidden="true"></span>
+        <a href="index.html">Today's prompt</a>
+      </div>
     </div>
 
-    <p class="eyebrow">230 prompts · 12 pillars</p>
-    <h1>Browse every topic</h1>
+    <p class="eyebrow"><span class="dot"></span> 230 prompts · 12 pillars</p>
+    <h1>Browse every<br />topic</h1>
     <p class="sub">
       Don't make your content primarily about what you do — make it about how you think.
       Search, or scan by pillar, and jump into whichever one's alive for you today.
     </p>
 
-    <div class="toolbar">
-      <input class="search" id="search" type="search" placeholder="Search topics… (e.g. failure, AI, hiring)" />
-      <a class="today-pill" id="today-jump" href="#">🔥 Jump to today's pick</a>
+    <div class="toolbar" id="search">
+      <input class="search" id="search-input" type="search" placeholder="Search topics… (e.g. failure, AI, hiring)" />
+      <a class="today-pill" id="today-jump" href="#">Jump to today's pick →</a>
     </div>
 
     <div id="categories"></div>
@@ -43,7 +46,7 @@
 
       render(data.categories);
 
-      document.getElementById("search").addEventListener("input", (e) => {
+      document.getElementById("search-input").addEventListener("input", (e) => {
         filter(e.target.value.trim().toLowerCase());
       });
 
