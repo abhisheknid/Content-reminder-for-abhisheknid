@@ -58,7 +58,7 @@ In the repo: **Settings → Secrets and variables → Actions**
 | Name | Default | Purpose |
 |---|---|---|
 | `EMAIL_TO` | `abhishek@dopami.app` | Who receives the daily prompt |
-| `SITE_URL` | `https://abhisheknid.github.io/content-reminder-for-abhisheknid` | Linked from the email; update if you rename the repo or use a custom domain |
+| `SITE_URL` | `https://abhisheknid.github.io/Content-reminder-for-abhisheknid` | Linked from the email; update if you rename the repo or use a custom domain. Case matters — must match the repo name's exact casing. |
 
 ### 3. Turn on GitHub Pages
 
