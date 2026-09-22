@@ -1,0 +1,723 @@
+{
+  "title": "B-Roll Shot List",
+  "eyebrow": "Dopami · Founder Film",
+  "subtitle": "One consolidated list. Duplicates merged. Shot names you can call on set.",
+  "howToUse": "Pick 8–12 shots per film, not the whole menu. Prefer real Dopami UI, real teammates, and real rooms. Crop every screen so Slack, WhatsApp, dashboards, and documents are unreadable. Never film handheld while driving.",
+  "categories": [
+    {
+      "id": 1,
+      "title": "Deep work & focus",
+      "blurb": "Use these to show you entering flow — the visual language of building, not posing.",
+      "shots": [
+        {
+          "num": "1",
+          "shot": "Walk-in to workspace",
+          "frame": "Camera behind you. Laptop or bag in hand as you enter and sit.",
+          "why": "Establishing beat. Opens a day-in-the-life sequence."
+        },
+        {
+          "num": "2",
+          "shot": "Laptop wake",
+          "frame": "Close-up of hands opening the lid; screen lights up.",
+          "why": "Simple start-of-session cue."
+        },
+        {
+          "num": "3",
+          "shot": "Headphones on",
+          "frame": "Side profile, tight on ear. Slip on over-ears; cut ambient sound on the snap.",
+          "why": "Universal shorthand for “flow state starts now.”"
+        },
+        {
+          "num": "4",
+          "shot": "Keyboard macro",
+          "frame": "60fps tight shot, shallow DOF. Fingers on keys; rack focus keycaps → wrist.",
+          "why": "Tactile motion that carries sound design."
+        },
+        {
+          "num": "5",
+          "shot": "Trackpad scroll",
+          "frame": "45° behind the hand. Fast two-finger scroll through a board, backlog, or Figma canvas.",
+          "why": "Shows scale and volume in half a second."
+        },
+        {
+          "num": "6",
+          "shot": "Screen in the eye",
+          "frame": "Extreme close-up of eye or glasses in a dim room. Screen colors shift across the surface.",
+          "why": "Signals intense analysis without leaking private data."
+        },
+        {
+          "num": "7",
+          "shot": "Desk rise",
+          "frame": "Low floor angle looking up. Sit-to-stand desk lifts as you step into frame.",
+          "why": "Vertical movement that breaks talking-head fatigue."
+        },
+        {
+          "num": "8",
+          "shot": "Timer start",
+          "frame": "Top-down. Flip a sand timer or tap start on a watch / focus app.",
+          "why": "Puts stakes on the next scene."
+        },
+        {
+          "num": "9",
+          "shot": "Door-close boundary",
+          "frame": "Inside looking out. Door pulled shut; latch clicks.",
+          "why": "Visual for “distractions off.”"
+        },
+        {
+          "num": "10",
+          "shot": "Pen rule-out",
+          "frame": "Overhead flat lay. Uncap a pen and cross off a finished line.",
+          "why": "Satisfying closure; viewers pause to read."
+        },
+        {
+          "num": "11",
+          "shot": "Dual-monitor pace",
+          "frame": "Slow track from behind the chair. Head turns between reference and live work.",
+          "why": "Makes desktop work feel spatial, not static."
+        },
+        {
+          "num": "12",
+          "shot": "Breath reset",
+          "frame": "Medium shot across the desk. Lean back, rub temple, exhale, dive back in.",
+          "why": "Humanizes the grind between typing shots."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Product & design craft",
+      "blurb": "Proof you are actually building. Prefer the real Dopami UI over generic mockups.",
+      "shots": [
+        {
+          "num": "1",
+          "shot": "Figma snap",
+          "frame": "Macro on screen. Cursor drags a card or frame into perfect alignment.",
+          "why": "Craft and precision. Speaks to designers."
+        },
+        {
+          "num": "2",
+          "shot": "Phone prototype",
+          "frame": "Top-down 45°, phone on desk. Thumb runs through real screen transitions.",
+          "why": "Makes the product tangible."
+        },
+        {
+          "num": "3",
+          "shot": "App on the move",
+          "frame": "Testing Dopami on your phone while walking.",
+          "why": "Product lives outside the studio."
+        },
+        {
+          "num": "4",
+          "shot": "Change + refresh",
+          "frame": "Edit something, then watch the live UI update.",
+          "why": "Shows iteration, not a finished demo."
+        },
+        {
+          "num": "5",
+          "shot": "Multi-device hand-off",
+          "frame": "Pan across phone, tablet, laptop. Tap mobile; laptop state updates.",
+          "why": "Signals product maturity."
+        },
+        {
+          "num": "6",
+          "shot": "Sketch → UI",
+          "frame": "Hold a rough paper sketch next to the finished screen, or cut paper → wireframe → UI.",
+          "why": "Zero-to-one story in one beat."
+        },
+        {
+          "num": "7",
+          "shot": "Stylus wireframe",
+          "frame": "Over-shoulder on iPad. Boxes, circles, layout lines.",
+          "why": "Early-stage creation energy."
+        },
+        {
+          "num": "8",
+          "shot": "Whiteboard flow",
+          "frame": "60fps or time-lapse following a marker tip: journeys, arrows, architecture.",
+          "why": "Anchors strategy voiceover."
+        },
+        {
+          "num": "9",
+          "shot": "Sticky-note move",
+          "frame": "Peel a note from Backlog and slap it onto Shipped.",
+          "why": "Software progress made physical."
+        },
+        {
+          "num": "10",
+          "shot": "Voice-note idea",
+          "frame": "Record a product thought into the phone.",
+          "why": "Capture-the-spark moment."
+        },
+        {
+          "num": "11",
+          "shot": "Dashboard from behind",
+          "frame": "You facing a large screen of growth / retention charts. No private numbers readable.",
+          "why": "Momentum without leaking data."
+        },
+        {
+          "num": "12",
+          "shot": "Finger traces the curve",
+          "frame": "Rack focus onto a chart. Finger follows a line up and to the right.",
+          "why": "Visual PMF / traction beat."
+        },
+        {
+          "num": "13",
+          "shot": "Bug pause",
+          "frame": "Side angle. Mouse stops, head tilts, you lean 3 inches closer.",
+          "why": "Real-time problem-solving tension."
+        },
+        {
+          "num": "14",
+          "shot": "Publish click",
+          "frame": "Extreme close-up of the index finger on Submit / Deploy / Launch.",
+          "why": "Climax shot for launch films."
+        },
+        {
+          "num": "15",
+          "shot": "Terminal deploy",
+          "frame": "High-contrast crop. Hit Enter; build text cascades.",
+          "why": "Codes you as close to the builders. Use only if true."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Thinking, research & the ADHD angle",
+      "blurb": "Best for “what I believe / future I’m building / lessons” films. On-brand for Dopami.",
+      "shots": [
+        {
+          "num": "1",
+          "shot": "Walk and think",
+          "frame": "Alone, no phone performance. Medium or behind.",
+          "why": "Default cutaway for reflective VO."
+        },
+        {
+          "num": "2",
+          "shot": "Window + city",
+          "frame": "Looking out; traffic or skyline below.",
+          "why": "Scale + interior thought."
+        },
+        {
+          "num": "3",
+          "shot": "Café stare",
+          "frame": "Laptop open, eyes off the screen.",
+          "why": "Thinking is not the same as typing."
+        },
+        {
+          "num": "4",
+          "shot": "One sentence, pause",
+          "frame": "Write a single line in a notebook and stop.",
+          "why": "Ideation, not productivity theatre."
+        },
+        {
+          "num": "5",
+          "shot": "Old notebook flip",
+          "frame": "Pages of earlier notes, diagrams, messy thinking.",
+          "why": "Continuity of the work over time."
+        },
+        {
+          "num": "6",
+          "shot": "Highlight / underline",
+          "frame": "Mark a sentence in a book, paper, or printout.",
+          "why": "Research-in-progress texture."
+        },
+        {
+          "num": "7",
+          "shot": "Close the notebook",
+          "frame": "Finish the thought, close the cover.",
+          "why": "Natural scene ender."
+        },
+        {
+          "num": "8",
+          "shot": "Whiteboard before writing",
+          "frame": "Stand still, look, then make the first mark.",
+          "why": "Decision moment before the diagram."
+        },
+        {
+          "num": "9",
+          "shot": "ADHD papers on screen",
+          "frame": "Close-up of studies or notes — no copyrighted page filling the frame.",
+          "why": "Category proof for Dopami content."
+        },
+        {
+          "num": "10",
+          "shot": "Annotate a study",
+          "frame": "Highlight / scribble on a printed paper.",
+          "why": "Founder doing the homework."
+        },
+        {
+          "num": "11",
+          "shot": "Focus session in frame",
+          "frame": "Timer running; you deep in work. Same family as Deep Work shots.",
+          "why": "Product promise, lived."
+        },
+        {
+          "num": "12",
+          "shot": "Body-doubling call",
+          "frame": "Done Together / community grid on screen, carefully framed.",
+          "why": "Shows the actual mechanism, not a slogan."
+        },
+        {
+          "num": "13",
+          "shot": "User-quote wall",
+          "frame": "Sticky notes of real (anonymized) feedback.",
+          "why": "Users in the room without putting faces on camera."
+        },
+        {
+          "num": "14",
+          "shot": "Reminder pop",
+          "frame": "Stylized notification on phone — dramatized, not a private message.",
+          "why": "Executive-function motif."
+        },
+        {
+          "num": "15",
+          "shot": "Clutter → clear desk",
+          "frame": "Split or match-cut: messy desk to reset desk.",
+          "why": "Before/after of attention, not aesthetics."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Team, leadership & war room",
+      "blurb": "Use real people and real rooms. Crop so Slack, WhatsApp, and dashboards never leak private text.",
+      "shots": [
+        {
+          "num": "1",
+          "shot": "You walk in",
+          "frame": "Office door opens; you enter. Or wide of you arriving.",
+          "why": "Founder-in-the-building beat."
+        },
+        {
+          "num": "2",
+          "shot": "Huddle around a table",
+          "frame": "2–4 people, mid-discussion, not posed at camera.",
+          "why": "Company, not personal brand cosplay."
+        },
+        {
+          "num": "3",
+          "shot": "Over one laptop",
+          "frame": "Leaning in, pointing at a line or chart, reacting together.",
+          "why": "Collaborative problem-solving."
+        },
+        {
+          "num": "4",
+          "shot": "Video-call mosaic",
+          "frame": "Slow push-in on a grid. Speaking indicators moving. No readable chat.",
+          "why": "Distributed team shorthand."
+        },
+        {
+          "num": "5",
+          "shot": "Call from behind the lid",
+          "frame": "You on a team call; camera behind the laptop.",
+          "why": "Safer than screen-facing shots."
+        },
+        {
+          "num": "6",
+          "shot": "Notes during a call",
+          "frame": "Hand writing while the call runs off-camera or blurred.",
+          "why": "Listening, not performing."
+        },
+        {
+          "num": "7",
+          "shot": "Walk-and-talk",
+          "frame": "Reverse track ahead of two people debating a product call.",
+          "why": "Keeps dialogue segments moving."
+        },
+        {
+          "num": "8",
+          "shot": "Whiteboard, many hands",
+          "frame": "More than one person writing.",
+          "why": "Shared thinking, not founder monologue."
+        },
+        {
+          "num": "9",
+          "shot": "Ankit at the screen",
+          "frame": "Candid coding / building. No shoulder-tap posing.",
+          "why": "CTO as a real person in the story."
+        },
+        {
+          "num": "10",
+          "shot": "Somalika with numbers",
+          "frame": "Reviewing a sheet or model, mid-work.",
+          "why": "Ops / numbers as part of the culture."
+        },
+        {
+          "num": "11",
+          "shot": "Someone presenting",
+          "frame": "One person at the board or deck; others watching.",
+          "why": "Internal gravity, not only founder-on-stage."
+        },
+        {
+          "num": "12",
+          "shot": "Marker idle",
+          "frame": "You spin or tap a marker while listening to an engineer.",
+          "why": "Listening-leader beat."
+        },
+        {
+          "num": "13",
+          "shot": "Fist bump / high five",
+          "frame": "Handheld, slightly imperfect, over a desk after a blocker clears.",
+          "why": "Micro-win. Don’t over-stage it."
+        },
+        {
+          "num": "14",
+          "shot": "Hard-stop gaze",
+          "frame": "Profile, window side-light. Chin on hand, processing.",
+          "why": "Cutaway for failure, pivot, hard calls."
+        },
+        {
+          "num": "15",
+          "shot": "Pitch-deck click",
+          "frame": "Low side angle. Clicker press; slide changes in the background.",
+          "why": "Fundraising / sales readiness."
+        },
+        {
+          "num": "16",
+          "shot": "Team lunch or chai",
+          "frame": "Candid, not a brand campaign smile-hold.",
+          "why": "Culture without the stock-photo feel."
+        },
+        {
+          "num": "17",
+          "shot": "Hallway / street walk",
+          "frame": "Group walking mid-conversation.",
+          "why": "Company in motion."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Daily routine, fitness & founder life",
+      "blurb": "Lifestyle glue. Shoot once, reuse for months. Keep gym and commute honest — no costume discipline.",
+      "shots": [
+        {
+          "num": "1",
+          "shot": "Blind pull at dawn",
+          "frame": "Silhouette. Blinds open; early light washes the room.",
+          "why": "Before-the-day evidence."
+        },
+        {
+          "num": "2",
+          "shot": "Coffee / chai",
+          "frame": "Macro, 60–120fps. Extraction, steam, pour. Or a simple kitchen make.",
+          "why": "Sensory reset between narrative blocks."
+        },
+        {
+          "num": "3",
+          "shot": "Watch on",
+          "frame": "Close-up of fastening a watch.",
+          "why": "Small ritual; time motif."
+        },
+        {
+          "num": "4",
+          "shot": "Shoes / laces",
+          "frame": "Floor-level. Tie, heel tap, stand out of frame.",
+          "why": "Transition into outdoor or gym."
+        },
+        {
+          "num": "5",
+          "shot": "Grab laptop + keys + phone",
+          "frame": "Hands collecting the kit on the way out.",
+          "why": "Leaving-the-nest beat."
+        },
+        {
+          "num": "6",
+          "shot": "Bag sling",
+          "frame": "Ground-level rear. Pack up, one-shoulder sling, walk out.",
+          "why": "Clean office → transit cut."
+        },
+        {
+          "num": "7",
+          "shot": "Treadmill strike",
+          "frame": "Low side track, level with the deck. Steady cadence.",
+          "why": "Rhythm for uptempo tracks."
+        },
+        {
+          "num": "8",
+          "shot": "Plate load / chalk grip",
+          "frame": "Sleeve clang, or hands wrapping knurled steel with chalk puff.",
+          "why": "Grit. Only if this is actually your training."
+        },
+        {
+          "num": "9",
+          "shot": "Post-set breath",
+          "frame": "Wide, backlit. Hands on knees or towel, chest working.",
+          "why": "Unpolished counterweight to shiny product shots."
+        },
+        {
+          "num": "10",
+          "shot": "Protein / kitchen prep",
+          "frame": "Top-down. Chop, crack eggs, assemble.",
+          "why": "Habits as operations, not influencer meal-prep."
+        },
+        {
+          "num": "11",
+          "shot": "Pack for a trip",
+          "frame": "Bag, charger, notebook going in.",
+          "why": "Movement / travel chapter marker."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Human & emotional beats",
+      "blurb": "These stop the film from looking like LinkedIn cosplay. Short. Unperformed. One or two per piece.",
+      "shots": [
+        {
+          "num": "1",
+          "shot": "Lean-back relief",
+          "frame": "Tiny exhale after something works.",
+          "why": "Win without a fist-pump."
+        },
+        {
+          "num": "2",
+          "shot": "Small smile at the screen",
+          "frame": "Something shipped or a message landed. Keep it small.",
+          "why": "Earns more than a staged laugh."
+        },
+        {
+          "num": "3",
+          "shot": "Good-news phone glance",
+          "frame": "Look at the phone, then a real reaction.",
+          "why": "Life leaking into work."
+        },
+        {
+          "num": "4",
+          "shot": "Forehead rub / laptop close",
+          "frame": "Frustration, then stop.",
+          "why": "The day is not only flow state."
+        },
+        {
+          "num": "5",
+          "shot": "Deep breath, start again",
+          "frame": "Reset after the above.",
+          "why": "Resilience without a speech."
+        },
+        {
+          "num": "6",
+          "shot": "Alone after a hard day",
+          "frame": "Sit. Don’t act tired — just stop performing.",
+          "why": "Weight. Use sparingly."
+        },
+        {
+          "num": "7",
+          "shot": "Off-air laugh",
+          "frame": "The two seconds after a take when posture drops.",
+          "why": "Humility. Best podcast B-roll you can steal."
+        },
+        {
+          "num": "8",
+          "shot": "Rain walk",
+          "frame": "Umbrella optional. Don’t romanticize it into a perfume ad.",
+          "why": "Mood + weather texture."
+        },
+        {
+          "num": "9",
+          "shot": "Sunset walk",
+          "frame": "Same family as thinking walks, warmer light.",
+          "why": "Close of day / hope beat."
+        },
+        {
+          "num": "10",
+          "shot": "Rooftop or high window",
+          "frame": "You looking at the city, not the camera.",
+          "why": "Scale. Good under “future I’m building.”"
+        },
+        {
+          "num": "11",
+          "shot": "Walk away into space",
+          "frame": "You leave frame into a large environment.",
+          "why": "Editorial end card."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Media, podcast & community",
+      "blurb": "For talking-head, interview, and “I record this so you don’t have to” content.",
+      "shots": [
+        {
+          "num": "1",
+          "shot": "Mic arm in",
+          "frame": "Wide. Articulated boom swings to your mouth.",
+          "why": "Signals an insight or interview is coming."
+        },
+        {
+          "num": "2",
+          "shot": "Lens cap off (POV)",
+          "frame": "First person, looking down at the rig. Cap twists off; room snaps sharp.",
+          "why": "Immersive open."
+        },
+        {
+          "num": "3",
+          "shot": "Clap for sync",
+          "frame": "60fps, centered. One sharp clap in front of the lens.",
+          "why": "Audio-visual hook in the first 2 seconds."
+        },
+        {
+          "num": "4",
+          "shot": "Eyes on outline",
+          "frame": "ECU of eyes tracking bullets, then into the lens.",
+          "why": "Anticipation before the line."
+        },
+        {
+          "num": "5",
+          "shot": "Waveform slice",
+          "frame": "Screen crop. Scrub dense vocals, snap a split.",
+          "why": "Shows deliberate editing. Speaks to creators."
+        },
+        {
+          "num": "6",
+          "shot": "Studio time-lapse",
+          "frame": "Wide corner, 8–16x. Lights up, tripod, cables, empty room filling.",
+          "why": "Production effort, not magic."
+        },
+        {
+          "num": "7",
+          "shot": "Phone call, pacing",
+          "frame": "Walking, gesturing, not looking at camera.",
+          "why": "Founder-as-operator, not host."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Transitions, transit & texture",
+      "blurb": "The connective tissue. Shoot a bank of these once; they cover cuts, location changes, and pacing.",
+      "shots": [
+        {
+          "num": "1",
+          "shot": "Elevator doors",
+          "frame": "Centered, facing out. Doors open or seal to black.",
+          "why": "Hard cut between two places."
+        },
+        {
+          "num": "2",
+          "shot": "Escalator / stairs up",
+          "frame": "Low, symmetrical. You stand; camera rises into daylight.",
+          "why": "Linear motion that holds edit energy."
+        },
+        {
+          "num": "3",
+          "shot": "Street walk",
+          "frame": "Busy pavement, Delhi-NCR texture. You moving through, not posing.",
+          "why": "Place. Don’t stock-replace it with generic downtown."
+        },
+        {
+          "num": "4",
+          "shot": "Car arrive / leave",
+          "frame": "Get in, or walk away from the car after arriving. Driving only from a mounted / passenger camera — never handheld while driving.",
+          "why": "Location change, safely."
+        },
+        {
+          "num": "5",
+          "shot": "Train / car glass",
+          "frame": "Profile on your reflection; city streaking behind.",
+          "why": "Best philosophical VO cutaway."
+        },
+        {
+          "num": "6",
+          "shot": "Golden-hour stride",
+          "frame": "Low gimbal past glass buildings, long shadows.",
+          "why": "Scale and polish. Don’t overuse."
+        },
+        {
+          "num": "7",
+          "shot": "Rain on the sill",
+          "frame": "Steaming mug on a high-rise ledge. Rack focus drops → city.",
+          "why": "Slows frantic pacing."
+        },
+        {
+          "num": "8",
+          "shot": "Steam by the laptop",
+          "frame": "Coffee/chai steam in the same frame as the machine.",
+          "why": "Warmth in a work scene."
+        },
+        {
+          "num": "9",
+          "shot": "Sun through window",
+          "frame": "Dust in the beam. Slow.",
+          "why": "Calm-founder atmosphere."
+        },
+        {
+          "num": "10",
+          "shot": "Plant / desk still",
+          "frame": "One object, held.",
+          "why": "Breathing room between faces."
+        },
+        {
+          "num": "11",
+          "shot": "Notebook in a fan / breeze",
+          "frame": "Pages lift.",
+          "why": "Light motion texture."
+        },
+        {
+          "num": "12",
+          "shot": "Hand to phone on desk",
+          "frame": "Reach, lift, or lock.",
+          "why": "Tiny action that covers a jump cut."
+        },
+        {
+          "num": "13",
+          "shot": "Watch or clock ECU",
+          "frame": "Time as a motif, not a countdown gimmick.",
+          "why": "Urgency without a caption."
+        },
+        {
+          "num": "14",
+          "shot": "Shoes on pavement",
+          "frame": "Feet only, commute cadence.",
+          "why": "Anonymous transit B-roll."
+        },
+        {
+          "num": "15",
+          "shot": "Wide workspace at open of day",
+          "frame": "Empty or just-started desk. Establishing.",
+          "why": "Where we are."
+        },
+        {
+          "num": "16",
+          "shot": "Lamp off",
+          "frame": "Dark room, one warm lamp. Hand clicks it; room goes blue-black.",
+          "why": "Definitive end-of-day shot."
+        }
+      ]
+    }
+  ],
+  "filmingOrder": [
+    "Home / morning first: blinds, coffee, watch, bag, laptop open. Natural light dies quickly.",
+    "Desk block next: typing, headphones, timer, notebook, Figma, phone prototype, dashboards. Same shirt, same desk.",
+    "Then team: huddles, Ankit, Somalika, whiteboard, chai. People are the scarce resource.",
+    "Transit last: elevator, street, window, golden hour, lamp off. These are reusable across many films.",
+    "Emotional beats are not a separate setup — grab them inside the desk and walk blocks when they actually happen."
+  ],
+  "privacyChecklist": [
+    "Blur or crop every chat, email, customer name, and metric that is not meant to be public.",
+    "Ask teammates before any face-forward shot. Candid is not the same as consented.",
+    "Don’t put copyrighted paper or a full article page on screen.",
+    "Driving shots: passenger seat or a mounted camera only."
+  ],
+  "tips": [
+    "Pick 8–12 shots per film, not the whole menu.",
+    "Prefer real Dopami UI, real teammates, and real rooms over stock or staged mockups.",
+    "Crop every screen so Slack, WhatsApp, dashboards, and documents are unreadable.",
+    "Never film handheld while driving — passenger seat or a mounted camera only.",
+    "Shoot the keyboard macro at 60fps with a shallow depth of field — tactile motion that carries sound design.",
+    "Ask teammates before any face-forward shot. Candid is not the same as consented.",
+    "Don't put copyrighted paper or a full article page on screen.",
+    "Blur or crop every chat, email, customer name, and metric that isn't meant to be public.",
+    "Shoot home and morning scenes first — natural light dies quickly.",
+    "Group desk-block shots together: typing, headphones, timer, notebook, Figma, phone prototype — same shirt, same desk.",
+    "Save transit shots (elevator, street, window, golden hour, lamp off) for last — they're reusable across many films.",
+    "Grab emotional beats inside the desk and walk blocks when they actually happen. Don't stage a separate setup for them.",
+    "A small, real smile at the screen earns more than a staged laugh.",
+    "Keep gym and commute shots honest — no costume discipline.",
+    "One sharp clap in frame at 60fps gives you an audio-visual sync hook in the first two seconds.",
+    "Time-lapse the whiteboard flow — it anchors strategy voiceover better than a static hold.",
+    "Don't over-stage the fist bump — a slightly imperfect handheld take beats a posed one.",
+    "Shoot a bank of transition shots once (elevators, escalators, doors) — they cover cuts and pacing across many future edits.",
+    "Rack focus from a chart to a finger tracing the line — the clearest way to show traction without reading numbers.",
+    "People are the scarce resource on shoot day — schedule team shots (huddles, whiteboard, chai) in one block."
+  ]
+}
