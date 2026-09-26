@@ -5,7 +5,8 @@
   "type": "module",
   "description": "Emails one writing prompt a day from a 230-prompt bank, and serves a static site to browse them by category.",
   "scripts": {
-    "send-email": "node scripts/send-daily-email.mjs"
+    "send-email": "node scripts/send-daily-email.mjs",
+    "send-weekly-reels": "node scripts/send-weekly-reels-email.mjs"
   },
   "dependencies": {
     "nodemailer": "^10.0.10"

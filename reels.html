@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>100 Reel Ideas</title>
+  <meta name="description" content="100 short-form reel ideas for Dopami and Done Together, organized into Seen, Helped, and Belong." />
+  <link rel="stylesheet" href="assets/style.css?v=3a364772" />
+</head>
+<body>
+  <div class="wrap wide">
+    <div class="nav">
+      <a class="brand" href="index.html"><span aria-hidden="true">✍️</span> Daily Prompt</a>
+      <div class="nav-links">
+        <span class="dot" aria-hidden="true"></span>
+        <a href="index.html">Today's prompt</a>
+        <a href="topics.html">Browse topics</a>
+        <a href="broll.html">B-roll ideas</a>
+        <a href="reels.html">Reel ideas</a>
+      </div>
+    </div>
+
+    <p class="eyebrow"><span class="dot"></span> <span id="eyebrow-text">Dopami · Done Together</span></p>
+    <h1 id="page-title">100 Reel Ideas</h1>
+    <p class="sub" id="subtitle">Short-form content that makes people feel seen, gives them a tiny win, and invites them in.</p>
+
+    <div class="cat-nav" id="cat-nav"></div>
+
+    <div class="info-columns" style="margin-bottom: 44px;">
+      <div class="info-box">
+        <h2>How to use this</h2>
+        <ul class="rule-list" id="rule-list"></ul>
+      </div>
+      <div class="info-box">
+        <h2>First 30 days: a starter sequence</h2>
+        <ol class="order-list" id="starter-sequence"></ol>
+      </div>
+    </div>
+
+    <div id="pillars"></div>
+  </div>
+
+  <script type="module">
+    async function init() {
+      const res = await fetch("data/reels.json");
+      const data = await res.json();
+
+      document.getElementById("eyebrow-text").textContent = data.eyebrow;
+      document.getElementById("page-title").textContent = data.title;
+      document.getElementById("subtitle").textContent = data.subtitle;
+
+      const catNav = document.getElementById("cat-nav");
+      catNav.innerHTML = data.pillars
+        .map((p) => `<a href="#pillar-${p.id}">${p.id}. ${p.name} <span class="count">(${p.ideas.length})</span></a>`)
+        .join("");
+
+      document.getElementById("rule-list").innerHTML = data.howToUse
+        .map((r) => `<li><strong>${r.label}</strong>${r.text}</li>`)
+        .join("");
+
+      document.getElementById("starter-sequence").innerHTML = data.starterSequence
+        .map((step, i) => `<li><span class="step-num">${i + 1}</span><span>${step}</span></li>`)
+        .join("");
+
+      const root = document.getElementById("pillars");
+      root.innerHTML = data.pillars.map(pillarHtml).join("");
+    }
+
+    function pillarHtml(p) {
+      const cards = p.ideas.map(ideaHtml).join("");
+      return `
+        <section class="shot-category" id="pillar-${p.id}">
+          <div class="category-head">
+            <h2>${p.id}. ${p.name}</h2>
+            <span class="category-count">${p.ideas.length} ideas · ${p.range}</span>
+          </div>
+          <p class="category-blurb">${p.blurb}</p>
+          <div class="shot-grid">${cards}</div>
+        </section>
+      `;
+    }
+
+    function ideaHtml(idea) {
+      return `
+        <div class="shot-card">
+          <span class="shot-num">${idea.num}</span><span class="shot-name">${idea.title}</span>
+          <p class="shot-frame">${idea.description}</p>
+          <p class="shot-why">${idea.format} · ${idea.duration}</p>
+        </div>
+      `;
+    }
+
+    init();
+  </script>
+</body>
+</html>

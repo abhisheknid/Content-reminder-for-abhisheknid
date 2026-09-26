@@ -1,0 +1,769 @@
+{
+  "title": "100 Reel Ideas",
+  "eyebrow": "Dopami · Done Together",
+  "subtitle": "Short-form content that makes people feel seen, gives them a tiny win, and invites them in.",
+  "howToUse": [
+    {
+      "label": "Posting mix",
+      "text": "Roughly 3 Seen : 2 Helped : 1 Belong each week. Seen reels grow reach, Helped reels earn saves, Belong reels convert followers into session attendees."
+    },
+    {
+      "label": "Hook rule",
+      "text": "The first line is on screen within 1.5 seconds. In Pillar 1, never say 'ADHD' in the hook; describe the moment instead. The word can appear in the caption."
+    },
+    {
+      "label": "Help rule",
+      "text": "In Pillar 2, the viewer must be able to complete the win without leaving the app. The CTA is 'save this', not 'download'."
+    },
+    {
+      "label": "Consent rule",
+      "text": "Pillar 3 uses real members only with written permission; blur or crop session grids otherwise."
+    },
+    {
+      "label": "CTA ladder",
+      "text": "Seen → comment 'me'. Helped → save. Belong → link in bio to tomorrow's session. Keep one CTA per reel."
+    },
+    {
+      "label": "Series it",
+      "text": "Recurring formats (e.g. 'Why you...' on Mondays, 'Start button' on Wednesdays, 'Tomorrow, 9am' as the standard end card) train the audience to come back."
+    }
+  ],
+  "starterSequence": [
+    "Week 1: #1, #40, #41, #76",
+    "Week 2: #8, #24, #52, #83",
+    "Week 3: #28 (money angle), #73 (replayable start button)",
+    "Week 4: repeat the two best performers in a new format, and post #98 (why we don't do streaks)."
+  ],
+  "pillars": [
+    {
+      "id": 1,
+      "name": "Seen",
+      "range": "#1–40",
+      "blurb": "Storytelling that names the experience. Goal: recognition and shares.",
+      "ideas": [
+        {
+          "num": 1,
+          "title": "Why you clean the whole kitchen instead of sending one email",
+          "description": "Split screen: spotless kitchen vs. an untouched email draft. VO: the email isn't hard, it's undefined. Your brain picks the task with a clear finish line.",
+          "format": "VO over B-roll",
+          "duration": "20s"
+        },
+        {
+          "num": 2,
+          "title": "You're not lazy. You're waiting for the task to feel possible.",
+          "description": "Talking head describing task paralysis as a wall you can see through but can't walk through. Not a choice, a wall.",
+          "format": "Talking head",
+          "duration": "25s"
+        },
+        {
+          "num": 3,
+          "title": "The 3 hours before an appointment where you can't do anything else",
+          "description": "POV skit: clock ticking, person frozen on the couch, 'I'll just wait.' Names 'waiting mode' without naming anything clinical.",
+          "format": "POV skit",
+          "duration": "15s"
+        },
+        {
+          "num": 4,
+          "title": "When 'just reply to one text' becomes a 9-day project",
+          "description": "WhatsApp unread counter climbs day by day. The guilt makes the reply heavier, which makes it later, which makes the guilt heavier.",
+          "format": "Screen recording + text",
+          "duration": "15s"
+        },
+        {
+          "num": 5,
+          "title": "Why you do your best work at 11pm the night before",
+          "description": "The deadline lends you the urgency your brain can't generate on its own. Borrowed fuel, not bad character.",
+          "format": "Talking head",
+          "duration": "25s"
+        },
+        {
+          "num": 6,
+          "title": "You have 47 tabs open because closing one feels like losing it",
+          "description": "Slow pan across a browser full of tabs. If it's out of sight, it's gone. Tabs are your external memory.",
+          "format": "Screen recording",
+          "duration": "15s"
+        },
+        {
+          "num": 7,
+          "title": "The 'I'll start after this video' loop",
+          "description": "Autoplay screen recording, clock in the corner jumping 10 min, 30 min, 1 hr. End card: 'Sound familiar?'",
+          "format": "Screen recording",
+          "duration": "12s"
+        },
+        {
+          "num": 8,
+          "title": "Why you can play a game for 6 hours but can't do taxes for 6 minutes",
+          "description": "Interest runs your engine, importance doesn't. Explains the interest-based attention idea in plain words.",
+          "format": "Talking head",
+          "duration": "30s"
+        },
+        {
+          "num": 9,
+          "title": "Buying a new planner is the most productive you'll feel all month",
+          "description": "Pan across a shelf of barely-used planners. Newness feels like progress; it wears off by week two.",
+          "format": "B-roll + VO",
+          "duration": "15s"
+        },
+        {
+          "num": 10,
+          "title": "When someone says 'just make a to-do list'",
+          "description": "Reaction skit: unroll a list of 43 items, all marked urgent. The list isn't the problem, choosing is.",
+          "format": "Reaction skit",
+          "duration": "12s"
+        },
+        {
+          "num": 11,
+          "title": "The shower argument you win every single time",
+          "description": "Creator rehearsing a conversation in the shower. The mind runs its own playlist, all day.",
+          "format": "POV skit",
+          "duration": "15s"
+        },
+        {
+          "num": 12,
+          "title": "You didn't forget their birthday. You remembered it at 2am, three days early, and never again.",
+          "description": "Text-on-screen timeline of the thought appearing once and vanishing. Memory that doesn't hold on to things you care about.",
+          "format": "Text-led",
+          "duration": "12s"
+        },
+        {
+          "num": 13,
+          "title": "Why a 5-minute task sits on your list for 5 weeks",
+          "description": "Small tasks have no urgency, so they never win the fight for attention. They just quietly pile up.",
+          "format": "Talking head",
+          "duration": "20s"
+        },
+        {
+          "num": 14,
+          "title": "The chair pile isn't mess. It's a to-do list you can see.",
+          "description": "Close-up of the clothes chair. Reframe: you keep things visible because hidden things stop existing.",
+          "format": "B-roll + VO",
+          "duration": "15s"
+        },
+        {
+          "num": 15,
+          "title": "Leaving the house: keys, phone, wallet, back for keys, back for charger",
+          "description": "Door-exit skit looped four times, each time returning for one more thing.",
+          "format": "Loop skit",
+          "duration": "12s"
+        },
+        {
+          "num": 16,
+          "title": "You're 20 minutes early or 20 minutes late. Never on time.",
+          "description": "Two-panel skit. Time doesn't feel like a line; it's 'now' and 'not now'.",
+          "format": "Split skit",
+          "duration": "15s"
+        },
+        {
+          "num": 17,
+          "title": "When your manager says 'quick call?' and your body goes cold",
+          "description": "Slack notification, heart-rate rising text, spiralling thoughts. Names the dread of assumed criticism.",
+          "format": "POV skit",
+          "duration": "15s"
+        },
+        {
+          "num": 18,
+          "title": "Why you start five new hobbies every year",
+          "description": "Montage of guitar, pottery, coding, running shoes. Not flaky: your brain loves the learning curve.",
+          "format": "Montage + VO",
+          "duration": "20s"
+        },
+        {
+          "num": 19,
+          "title": "The dishes aren't the problem. Starting the dishes is the problem.",
+          "description": "Static shot of a sink; creator stares for 20 seconds, then text: 'the hardest part is the first plate.'",
+          "format": "Static + text",
+          "duration": "20s"
+        },
+        {
+          "num": 20,
+          "title": "You rehearse the phone call 11 times and still don't make it",
+          "description": "Tally marks on a notepad for each rehearsal. Phone stays face-down.",
+          "format": "POV skit",
+          "duration": "15s"
+        },
+        {
+          "num": 21,
+          "title": "Sunday, 7pm: the dread arrives on schedule",
+          "description": "Clock hits 7, lighting goes dim, the whole week lands at once as one blob.",
+          "format": "Mood skit",
+          "duration": "12s"
+        },
+        {
+          "num": 22,
+          "title": "Your brain in a Monday stand-up",
+          "description": "Inner monologue captions: listening, listening, lunch thoughts, 'sorry, can you repeat that?'",
+          "format": "Captioned skit",
+          "duration": "15s"
+        },
+        {
+          "num": 23,
+          "title": "Being told you have 'so much potential' for 20 years",
+          "description": "Quiet talking head. How a compliment turns into a weight. Emotional, no fixes offered.",
+          "format": "Talking head",
+          "duration": "30s"
+        },
+        {
+          "num": 24,
+          "title": "Why you're exhausted after doing 'nothing' all day",
+          "description": "Avoiding a task takes effort. Fighting yourself for 8 hours burns more energy than doing the thing.",
+          "format": "Talking head",
+          "duration": "25s"
+        },
+        {
+          "num": 25,
+          "title": "The gym membership, the gym clothes, and a gym that has never seen you",
+          "description": "Light comedy flat-lay of new gear with tags still on. Ends kind, not mocking.",
+          "format": "Flat-lay + VO",
+          "duration": "12s"
+        },
+        {
+          "num": 26,
+          "title": "When you finally sit down to work and suddenly need water, a snack, a playlist and a clean desk",
+          "description": "Speed-ramped setup spiral. 40 minutes later, still no work.",
+          "format": "Speed-ramp skit",
+          "duration": "15s"
+        },
+        {
+          "num": 27,
+          "title": "Why you can't watch a movie without your phone",
+          "description": "Too little stimulation feels uncomfortable, so the brain adds a second screen. Not rudeness.",
+          "format": "Talking head",
+          "duration": "20s"
+        },
+        {
+          "num": 28,
+          "title": "You're not bad with money. You're bad with boring admin that costs money.",
+          "description": "Stack of late fees, forgotten subscriptions, unclaimed refunds. The hidden tax of 'I'll do it later'.",
+          "format": "Text + B-roll",
+          "duration": "20s"
+        },
+        {
+          "num": 29,
+          "title": "Diwali cleaning: you found your 2019 notebook and read it for two hours",
+          "description": "India-specific skit. Cleaning becomes a side quest; the room stays half-done.",
+          "format": "POV skit",
+          "duration": "15s"
+        },
+        {
+          "num": 30,
+          "title": "When a task has 3 steps and you can't see step 1",
+          "description": "'Plan the trip' shown as a fogged-out screen. The first action is invisible, so nothing starts.",
+          "format": "Visual metaphor",
+          "duration": "15s"
+        },
+        {
+          "num": 31,
+          "title": "The guilt of resting when you haven't 'earned' it, and you never feel like you've earned it",
+          "description": "Couch shot, captions of the inner critic. Gentle ending line: rest isn't a reward.",
+          "format": "Captioned mood",
+          "duration": "20s"
+        },
+        {
+          "num": 32,
+          "title": "Why you over-promise on Monday and disappear by Thursday",
+          "description": "Monday-you signs up for everything; Thursday-you inherits the bill. Optimism about your future self.",
+          "format": "Two-character skit",
+          "duration": "20s"
+        },
+        {
+          "num": 33,
+          "title": "You'll hit anyone else's deadline and none of your own",
+          "description": "Split screen: boss's task done in an hour; personal project untouched for a year. Outside pressure works.",
+          "format": "Split screen",
+          "duration": "15s"
+        },
+        {
+          "num": 34,
+          "title": "When the task matters so much you can't touch it",
+          "description": "The job application that's been 'almost ready' for three weeks. Importance turns into paralysis.",
+          "format": "Talking head",
+          "duration": "20s"
+        },
+        {
+          "num": 35,
+          "title": "Unread emails: 4,382. Anxiety: yes.",
+          "description": "Inbox zoom-in, heartbeat sound design. Ends with 'you're not the only one.'",
+          "format": "Screen + sound",
+          "duration": "10s"
+        },
+        {
+          "num": 36,
+          "title": "Why the 30 minutes between tasks wreck your day",
+          "description": "Switching gears costs more than the task itself. The 'in-between' where nothing happens.",
+          "format": "Talking head",
+          "duration": "20s"
+        },
+        {
+          "num": 37,
+          "title": "You remember every friend's problems and forget your own dentist appointment",
+          "description": "Warm skit. Caring is easy; remembering your own admin isn't.",
+          "format": "POV skit",
+          "duration": "15s"
+        },
+        {
+          "num": 38,
+          "title": "'Padhai mein dhyan do' / 'just be more disciplined'",
+          "description": "Hinglish skit with a parent. Validates the kid who was trying the whole time.",
+          "format": "Hinglish skit",
+          "duration": "20s"
+        },
+        {
+          "num": 39,
+          "title": "When your brain finally switches on, and you have 40 minutes before it switches off",
+          "description": "Lights-on moment, frantic typing, then fade. Names the unpredictable focus window.",
+          "format": "Mood skit",
+          "duration": "15s"
+        },
+        {
+          "num": 40,
+          "title": "It's not that you don't care. It's that caring doesn't turn into doing.",
+          "description": "Signature closer. Slow talking head, one line, long pause. Series anchor for the pillar.",
+          "format": "Talking head",
+          "duration": "15s"
+        }
+      ],
+      "slug": "seen",
+      "goal": "Recognition and shares"
+    },
+    {
+      "id": 2,
+      "name": "Helped",
+      "range": "#41–75",
+      "blurb": "Free, instant, tiny help. Goal: a felt win and saves.",
+      "ideas": [
+        {
+          "num": 41,
+          "title": "Can't start? Do the first 2 minutes with me. Timer starts now.",
+          "description": "On-screen 2:00 countdown; creator starts their own task alongside. The reel itself is the tool.",
+          "format": "Do-along timer",
+          "duration": "2 min"
+        },
+        {
+          "num": 42,
+          "title": "Brain dump in 60 seconds",
+          "description": "Write everything in your head. Circle three. Ignore the rest for today. Creator does it live on paper.",
+          "format": "Live demo",
+          "duration": "60s"
+        },
+        {
+          "num": 43,
+          "title": "The ugly first draft trick",
+          "description": "Write the email badly on purpose. Show a terrible draft becoming a decent one in 30 seconds.",
+          "format": "Screen demo",
+          "duration": "30s"
+        },
+        {
+          "num": 44,
+          "title": "Make step one so small it's embarrassing",
+          "description": "'Open laptop' is a valid step one. Show a real task broken into ridiculous micro-steps.",
+          "format": "Text demo",
+          "duration": "20s"
+        },
+        {
+          "num": 45,
+          "title": "Stuck? Say the next physical action out loud",
+          "description": "'Work on report' becomes 'open the doc called Report'. Verbs your hands can do.",
+          "format": "Talking head",
+          "duration": "20s"
+        },
+        {
+          "num": 46,
+          "title": "The launch pad: one spot by the door",
+          "description": "Tray for keys, wallet, phone, earphones. Set it up in 20 seconds on camera.",
+          "format": "Setup demo",
+          "duration": "20s"
+        },
+        {
+          "num": 47,
+          "title": "Five minutes, then you're allowed to stop",
+          "description": "Permission to quit lowers the wall to start. Most people keep going.",
+          "format": "Talking head + timer",
+          "duration": "25s"
+        },
+        {
+          "num": 48,
+          "title": "Pair the boring task with a treat",
+          "description": "That podcast only plays while you do dishes. Show the rule in action.",
+          "format": "B-roll + VO",
+          "duration": "20s"
+        },
+        {
+          "num": 49,
+          "title": "Double your time estimate. Then add 10 minutes.",
+          "description": "Walk through one real estimate: 'shower 10 min' is actually 25. Plan with the real number.",
+          "format": "Text demo",
+          "duration": "20s"
+        },
+        {
+          "num": 50,
+          "title": "Name your alarms with the consequence",
+          "description": "'LEAVE NOW or you miss the metro' beats a silent 8:15. Screen-record setting one up.",
+          "format": "Screen demo",
+          "duration": "15s"
+        },
+        {
+          "num": 51,
+          "title": "Under two minutes? Do it while this reel plays",
+          "description": "Countdown overlay; viewer clears one tiny thing before the reel loops.",
+          "format": "Do-along",
+          "duration": "60s"
+        },
+        {
+          "num": 52,
+          "title": "Work with me for 60 seconds",
+          "description": "Phone propped on a desk, creator working silently, ambient sound, timer. The smallest body double.",
+          "format": "Silent co-work",
+          "duration": "60s"
+        },
+        {
+          "num": 53,
+          "title": "Tomorrow's first task on a sticky note, tonight",
+          "description": "Stick it on your laptop lid. Morning-you doesn't have to decide anything.",
+          "format": "Demo",
+          "duration": "15s"
+        },
+        {
+          "num": 54,
+          "title": "Make time visible",
+          "description": "Analog clock or a visual timer on the desk. Time you can see is time you can feel.",
+          "format": "Demo",
+          "duration": "15s"
+        },
+        {
+          "num": 55,
+          "title": "Overwhelmed? Sort into today / this week / someday",
+          "description": "45-second live sort of a messy list. Most items land in 'someday', and that's the relief.",
+          "format": "Live demo",
+          "duration": "45s"
+        },
+        {
+          "num": 56,
+          "title": "Can't pick what's first? Choose what makes tomorrow easiest",
+          "description": "A single decision rule for when everything feels equal.",
+          "format": "Talking head",
+          "duration": "20s"
+        },
+        {
+          "num": 57,
+          "title": "The Reset 10",
+          "description": "Ten-minute timer, one room, go. Speed-ramped before/after.",
+          "format": "Speed-ramp",
+          "duration": "20s"
+        },
+        {
+          "num": 58,
+          "title": "Put the thing you'll forget where you'll trip over it",
+          "description": "Bill on the kettle, parcel on the doormat, charger on the pillow. Visibility beats memory.",
+          "format": "Montage",
+          "duration": "15s"
+        },
+        {
+          "num": 59,
+          "title": "One text for instant accountability",
+          "description": "'Starting X now, check on me at 4.' Show sending it to a friend.",
+          "format": "Screen demo",
+          "duration": "15s"
+        },
+        {
+          "num": 60,
+          "title": "60-second reset when everything feels like too much",
+          "description": "Guided breath: breathe out longer than you breathe in. Creator does it with the viewer.",
+          "format": "Guided",
+          "duration": "60s"
+        },
+        {
+          "num": 61,
+          "title": "Stalled? Change chairs.",
+          "description": "New spot, new start. Show someone move from bed to kitchen table and begin.",
+          "format": "B-roll + VO",
+          "duration": "15s"
+        },
+        {
+          "num": 62,
+          "title": "Tonight, write a done list instead of a to-do list",
+          "description": "Evidence you did things. Creator writes theirs on camera, including the tiny ones.",
+          "format": "Demo",
+          "duration": "25s"
+        },
+        {
+          "num": 63,
+          "title": "Leave a breadcrumb when you stop",
+          "description": "Sticky note: 'next I was going to...'. Future-you restarts in seconds.",
+          "format": "Demo",
+          "duration": "15s"
+        },
+        {
+          "num": 64,
+          "title": "The three-alarm morning",
+          "description": "Wake. Move. Leave. Three labelled alarms, nothing else to decide.",
+          "format": "Screen demo",
+          "duration": "20s"
+        },
+        {
+          "num": 65,
+          "title": "Pick one 'we're starting' song",
+          "description": "Headphones on, same song every time. A ritual your brain learns as the start signal.",
+          "format": "Mood demo",
+          "duration": "20s"
+        },
+        {
+          "num": 66,
+          "title": "Turn the task into verbs",
+          "description": "'Plan the trip' becomes five verbs: check dates, message group, compare trains, book, share. Tap-along text.",
+          "format": "Text demo",
+          "duration": "25s"
+        },
+        {
+          "num": 67,
+          "title": "Unsubscribe from five emails while I count",
+          "description": "Countdown do-along. Tiny, visible win in under a minute.",
+          "format": "Do-along",
+          "duration": "45s"
+        },
+        {
+          "num": 68,
+          "title": "Decide what 'done' looks like before you start",
+          "description": "The good-enough line stops a 20-minute task becoming a 3-hour polish.",
+          "format": "Talking head",
+          "duration": "20s"
+        },
+        {
+          "num": 69,
+          "title": "Phone in another room for 25 minutes. That's the reel.",
+          "description": "Creator walks the phone away; text-only reel with a 25-minute suggestion.",
+          "format": "Minimal",
+          "duration": "10s"
+        },
+        {
+          "num": 70,
+          "title": "Stop mid-sentence when you end work",
+          "description": "Tomorrow's start becomes obvious. Show the half-sentence left on screen.",
+          "format": "Demo",
+          "duration": "15s"
+        },
+        {
+          "num": 71,
+          "title": "Brain too loud to sleep? Two-minute worry park",
+          "description": "Dump every loop on paper, close the notebook, lights off.",
+          "format": "Guided",
+          "duration": "2 min"
+        },
+        {
+          "num": 72,
+          "title": "Batch the boring",
+          "description": "All calls on Tuesday at 11. One block, one dread, then done.",
+          "format": "Talking head",
+          "duration": "20s"
+        },
+        {
+          "num": 73,
+          "title": "Save this reel. It's your start button.",
+          "description": "A 60-second countdown with a calm voice: 'pick one thing, we're starting.' Built to be replayed.",
+          "format": "Replayable tool",
+          "duration": "60s"
+        },
+        {
+          "num": 74,
+          "title": "The 5-4-3-2-1 stand-up",
+          "description": "Count down out loud and stand before your brain argues. Demo from couch to desk.",
+          "format": "Demo",
+          "duration": "15s"
+        },
+        {
+          "num": 75,
+          "title": "Comment the one thing you're avoiding. Then go do two minutes of it.",
+          "description": "Engagement reel that doubles as accountability. Creator replies to comments the next day.",
+          "format": "Prompt reel",
+          "duration": "15s"
+        }
+      ],
+      "slug": "helped",
+      "goal": "A felt win and saves"
+    },
+    {
+      "id": 3,
+      "name": "Belong",
+      "range": "#76–100",
+      "blurb": "Human connection with zero performance pressure. Goal: first session, then return.",
+      "ideas": [
+        {
+          "num": 76,
+          "title": "9am. 40 strangers. Cameras optional. Everyone just starts.",
+          "description": "Timelapse of a live Done Together session grid. No talking, just work.",
+          "format": "Session timelapse",
+          "duration": "15s"
+        },
+        {
+          "num": 77,
+          "title": "Nobody checks your work here",
+          "description": "You say what you'll do, then you do it. That's the whole deal. Host voiceover over session footage.",
+          "format": "VO + session",
+          "duration": "20s"
+        },
+        {
+          "num": 78,
+          "title": "I didn't finish my task. Nobody cared. I came back the next day.",
+          "description": "Member story (with consent). The point is returning, not completing.",
+          "format": "Member story",
+          "duration": "30s"
+        },
+        {
+          "num": 79,
+          "title": "What a body doubling session actually looks like",
+          "description": "Walkthrough: join, one-line intro, mics off, timer, quick share at the end.",
+          "format": "Explainer",
+          "duration": "30s"
+        },
+        {
+          "num": 80,
+          "title": "'I filed my taxes in a room full of people I've never met'",
+          "description": "Member testimonial. The task they avoided for months, done in 50 minutes with company.",
+          "format": "Testimonial",
+          "duration": "25s"
+        },
+        {
+          "num": 81,
+          "title": "Your only job: show up. Not be productive. Show up.",
+          "description": "Short manifesto-style reel. Sets the zero-pressure promise.",
+          "format": "Text manifesto",
+          "duration": "12s"
+        },
+        {
+          "num": 82,
+          "title": "The 30-second check-in",
+          "description": "Say one thing you're working on. That's it. Montage of quick, low-stakes intros.",
+          "format": "Montage",
+          "duration": "20s"
+        },
+        {
+          "num": 83,
+          "title": "Missed a week? Welcome back. No streak. No shame.",
+          "description": "Directly speaks to the comeback moment. Warm host greeting.",
+          "format": "Talking head",
+          "duration": "15s"
+        },
+        {
+          "num": 84,
+          "title": "Why working next to strangers works when working alone doesn't",
+          "description": "Simple science: other people's presence nudges your brain into gear. No jargon.",
+          "format": "Explainer",
+          "duration": "30s"
+        },
+        {
+          "num": 85,
+          "title": "POV: your first body doubling session",
+          "description": "Nervous join, expecting judgment. Everyone is just quietly working. Relief.",
+          "format": "POV skit",
+          "duration": "20s"
+        },
+        {
+          "num": 86,
+          "title": "Meet the 9am regulars",
+          "description": "Mini-profiles: 'I'm Riya, I show up to write.' Identity, not performance.",
+          "format": "Profile series",
+          "duration": "20s"
+        },
+        {
+          "num": 87,
+          "title": "'I wrote two lines.'",
+          "description": "End-of-session chat where tiny wins get celebrated like big ones.",
+          "format": "Screen recording",
+          "duration": "12s"
+        },
+        {
+          "num": 88,
+          "title": "The 11pm night-owl crew",
+          "description": "A session for people whose brains switch on late. Your rhythm is welcome.",
+          "format": "Session B-roll",
+          "duration": "15s"
+        },
+        {
+          "num": 89,
+          "title": "What people worked on today",
+          "description": "Scrolling anonymised list: 'cleaned one drawer', 'answered 3 emails', 'finally booked the doctor'. Small is normal.",
+          "format": "Text scroll",
+          "duration": "15s"
+        },
+        {
+          "num": 90,
+          "title": "You don't have to talk",
+          "description": "Some days, camera off and just being there is the win.",
+          "format": "Talking head",
+          "duration": "15s"
+        },
+        {
+          "num": 91,
+          "title": "Host confession: I didn't want to start today either",
+          "description": "The host is human too. Shared struggle lowers the bar to join.",
+          "format": "Talking head",
+          "duration": "20s"
+        },
+        {
+          "num": 92,
+          "title": "Work with me for 25 minutes",
+          "description": "Full-length ambient co-working reel with timer. Replayable body double for anyone, anytime.",
+          "format": "Long co-work",
+          "duration": "25 min"
+        },
+        {
+          "num": 93,
+          "title": "'Why do you need strangers to do the dishes?'",
+          "description": "Answering a partner or parent's question kindly. Useful for proxy audiences too.",
+          "format": "Two-person skit",
+          "duration": "25s"
+        },
+        {
+          "num": 94,
+          "title": "Day 1 camera off. Day 12 said hi. Day 30 hosting.",
+          "description": "One member's journey told in three frames. Belonging grows slowly.",
+          "format": "Timeline story",
+          "duration": "20s"
+        },
+        {
+          "num": 95,
+          "title": "The 'I showed up' wall",
+          "description": "Collage of first names / avatars (with consent) who attended this week. Showing up is the achievement.",
+          "format": "Collage",
+          "duration": "12s"
+        },
+        {
+          "num": 96,
+          "title": "Exam season study-along",
+          "description": "CA, UPSC, board exam students studying together. India-specific session promo.",
+          "format": "Session promo",
+          "duration": "20s"
+        },
+        {
+          "num": 97,
+          "title": "Friday wind-down: close loops together",
+          "description": "No new tasks. Just finish small things with others before the weekend.",
+          "format": "Session promo",
+          "duration": "15s"
+        },
+        {
+          "num": 98,
+          "title": "Why we don't do streaks",
+          "description": "Founder talking head on the brand philosophy: coming back after a gap should feel good, not guilty.",
+          "format": "Founder POV",
+          "duration": "30s"
+        },
+        {
+          "num": 99,
+          "title": "Tag the friend who also 'can't start'",
+          "description": "Bring a buddy. Two people who struggle, starting together.",
+          "format": "Share prompt",
+          "duration": "12s"
+        },
+        {
+          "num": 100,
+          "title": "Tomorrow, 9am. Bring whatever you're avoiding.",
+          "description": "Standing invitation. Use as the recurring end card for the whole series.",
+          "format": "Invite",
+          "duration": "10s"
+        }
+      ],
+      "slug": "belong",
+      "goal": "First session, then return"
+    }
+  ]
+}
