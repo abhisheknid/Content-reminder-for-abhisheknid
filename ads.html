@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ads</title>
+  <meta name="description" content="39 ad angles and formats for Dopami, grouped by when to use them, with a founder-stage playbook for picking 6–8." />
+  <link rel="stylesheet" href="assets/style.css?v=3a364772" />
+</head>
+<body>
+  <div class="wrap wide">
+    <div class="nav">
+      <a class="brand" href="index.html"><span aria-hidden="true">✍️</span> Daily Prompt</a>
+      <div class="nav-links">
+        <span class="dot" aria-hidden="true"></span>
+        <a href="index.html">Today's prompt</a>
+        <a href="topics.html">Browse topics</a>
+        <a href="broll.html">B-roll ideas</a>
+        <a href="reels.html">Reel ideas</a>
+        <a href="ads.html">Ads</a>
+      </div>
+    </div>
+
+    <p class="eyebrow"><span class="dot"></span> <span id="eyebrow-text">Dopami · Growth</span></p>
+    <h1 id="page-title">Ads</h1>
+    <p class="sub" id="subtitle">39 ad angles and formats, grouped by when to reach for them. Pick 6–8, not all 39.</p>
+
+    <div class="info-columns" style="margin-bottom: 36px;">
+      <div class="info-box">
+        <h2>Start here</h2>
+        <ul class="rule-list" id="start-here"></ul>
+      </div>
+      <div class="info-box">
+        <h2>Then ship</h2>
+        <p class="nudge" id="ship-advice" style="margin: 0;"></p>
+      </div>
+    </div>
+
+    <div class="cat-nav" id="cat-nav"></div>
+
+    <div id="categories"></div>
+
+    <div class="info-columns" style="grid-template-columns: 1fr;">
+      <div class="info-box">
+        <h2>How an early brand should actually run this</h2>
+        <ol class="order-list" id="how-to-run"></ol>
+      </div>
+    </div>
+  </div>
+
+  <script type="module">
+    async function init() {
+      const res = await fetch("data/ads.json");
+      const data = await res.json();
+
+      document.getElementById("eyebrow-text").textContent = data.eyebrow;
+      document.getElementById("page-title").textContent = data.title;
+      document.getElementById("subtitle").textContent = data.subtitle;
+
+      document.getElementById("start-here").innerHTML = data.startHere
+        .map((p) => `<li>${p}</li>`)
+        .join("");
+
+      document.getElementById("ship-advice").textContent = data.shipAdvice;
+
+      const catNav = document.getElementById("cat-nav");
+      catNav.innerHTML = data.categories
+        .map((c) => `<a href="#cat-${c.id}">${c.id}. ${c.title} <span class="count">(${c.ads.length})</span></a>`)
+        .join("");
+
+      const root = document.getElementById("categories");
+      root.innerHTML = data.categories.map(categoryHtml).join("");
+
+      document.getElementById("how-to-run").innerHTML = data.howToRun
+        .map((step, i) => `<li><span class="step-num">${i + 1}</span><span>${step}</span></li>`)
+        .join("");
+    }
+
+    function categoryHtml(cat) {
+      const cards = cat.ads.map(adHtml).join("");
+      return `
+        <section class="shot-category" id="cat-${cat.id}">
+          <div class="category-head">
+            <h2>${cat.id}. ${cat.title}</h2>
+            <span class="category-count">${cat.ads.length} formats</span>
+          </div>
+          <p class="category-blurb">${cat.blurb}</p>
+          <div class="shot-grid">${cards}</div>
+        </section>
+      `;
+    }
+
+    function adHtml(a) {
+      return `
+        <div class="shot-card">
+          <span class="shot-num">${a.num}</span><span class="shot-name">${a.name}</span>
+          <p class="shot-frame">${a.frame}</p>
+          <p class="shot-why">${a.why}</p>
+        </div>
+      `;
+    }
+
+    init();
+  </script>
+</body>
+</html>

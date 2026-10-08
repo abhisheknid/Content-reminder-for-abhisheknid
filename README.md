@@ -126,6 +126,7 @@ python3 -m http.server 8000
 data/topics.json                    the 230 writing prompts, grouped into 12 categories
 data/broll.json                     104 B-roll shots, grouped into 8 categories
 data/reels.json                     100 reel ideas, grouped into 3 pillars (Seen/Helped/Belong)
+data/ads.json                       39 ad angles/formats, grouped into 6 categories
 assets/rotation.js                  shared "what's today's prompt" logic (site + daily email)
 assets/reelRotation.js              shared "this week's 3 reel ideas" logic (site + weekly email)
 assets/copy.js                      shared nudge / starter-question copy (site + daily email)
@@ -134,6 +135,7 @@ index.html                          today's prompt + nudge
 topics.html                         browse all writing prompts by category, with search
 broll.html                          browse all B-roll shots by category, with a random shooting tip
 reels.html                          browse all 100 reel ideas by pillar
+ads.html                             browse all 39 ad angles/formats, grouped by category, plus a "start here" and run-it playbook
 scripts/send-daily-email.mjs        daily writing-prompt email sender (Nodemailer + Gmail SMTP)
 scripts/send-weekly-reels-email.mjs weekly 3-reel-ideas email sender (Nodemailer + Gmail SMTP)
 .github/workflows/daily-email.yml         cron trigger for the daily email (manual/backup)

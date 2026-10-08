@@ -1,0 +1,293 @@
+{
+  "title": "Ads",
+  "eyebrow": "Dopami · Growth",
+  "subtitle": "39 ad angles and formats, grouped by when to reach for them. Pick 6–8, not all 39.",
+  "startHere": [
+    "If you have almost no customers yet, lead with problem, contrast, and founder demo formats: 5, 6, 10, 12, 23, 27, 32, 35, 39.",
+    "If you have even 5–10 real buyers, add proof wrappers: 28, 29, 34. Save review-site and urgency formats until the proof is real."
+  ],
+  "shipAdvice": "Ship 6–8 ads, not 39. Same angle, different wrapper. Kill anything that does not hold attention past 3 seconds.",
+  "categories": [
+    {
+      "id": 1,
+      "title": "News, urgency, and pattern breaks",
+      "blurb": "Only as strong as the real event behind them. Don't invent news or scarcity — it trains people to ignore you.",
+      "ads": [
+        {
+          "num": "1",
+          "name": "Breaking news",
+          "frame": "Lower-third or news-desk look: “New: [specific claim].” Early stage: founder at a desk, bold caption, one concrete fact.",
+          "why": "Works when you have a real launch, a study, or a category shift. Do not invent a news event."
+        },
+        {
+          "num": "9",
+          "name": "Low-stock alert",
+          "frame": "Red banner, units left, countdown.",
+          "why": "Only if inventory is actually limited. Fake scarcity trains people to ignore you and can get the ad rejected."
+        },
+        {
+          "num": "19",
+          "name": "We're sorry",
+          "frame": "Apology open: “Sorry we sold out” or “Sorry this took so long to launch.” Useful at restock or after a waitlist.",
+          "why": "Needs a real event behind it."
+        },
+        {
+          "num": "24",
+          "name": "Warning",
+          "frame": "Yellow/black label, “Warning: if you do X, this happens.” Good for a costly mistake your product prevents.",
+          "why": "Keep the claim specific and supportable."
+        },
+        {
+          "num": "33",
+          "name": "Emergency",
+          "frame": "“Case of emergency” checklist energy.",
+          "why": "Best for acute problems (stain, deadline, outage, flare-up), weak for lifestyle brands."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Proof wrappers",
+      "blurb": "Only pull real reviews, real screenshots, real customers. Thin or faked proof looks staged and costs trust.",
+      "ads": [
+        {
+          "num": "2",
+          "name": "Trustpilot reviews",
+          "frame": "Stars and review cards on screen.",
+          "why": "Only pull real reviews. Early brands usually do not have enough volume; a thin 4.9 from 3 reviews looks staged."
+        },
+        {
+          "num": "13",
+          "name": "Zero stars",
+          "frame": "Opens on a 1-star complaint about the old way, then shows your fix.",
+          "why": "The bad review is about the category or a competitor behavior, not a fake review of you."
+        },
+        {
+          "num": "17",
+          "name": "Reddit style",
+          "frame": "Dark-mode post, title, upvotes, a comment thread. Write it in the subreddit's voice.",
+          "why": "Do not fake a real thread. “Posted in r/ADHD” energy, original copy."
+        },
+        {
+          "num": "28",
+          "name": "Email screenshot",
+          "frame": "Inbox mock with a subject line like “this actually worked.”",
+          "why": "Use a real customer email with permission, or label it as a reconstruction."
+        },
+        {
+          "num": "29",
+          "name": "Text message",
+          "frame": "iMessage bubbles: friend recommends the product.",
+          "why": "Highest trust when it is a real screenshot. Scripted versions still work if the wording is messy, not ad-copy."
+        },
+        {
+          "num": "34",
+          "name": "Testimonial",
+          "frame": "Face to camera, specific result, timeframe, and what failed before. One named customer beats a montage.",
+          "why": "Early stage: offer the product free for an honest 20-second clip."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Interface mimics",
+      "blurb": "Cheap to shoot, native to the feed. Best default wrapper for a brand nobody knows yet.",
+      "ads": [
+        {
+          "num": "11",
+          "name": "iPhone Notes",
+          "frame": "Yellow notes app, a short list or confession typed out.",
+          "why": "Cheap and native. Use for “what I stopped doing” or “3 things I wish I knew.”"
+        },
+        {
+          "num": "14",
+          "name": "Google search",
+          "frame": "Search bar types the problem, results appear, your answer is the click.",
+          "why": "Strong when people already search the pain (“why does my focus crash at 3pm”)."
+        },
+        {
+          "num": "21",
+          "name": "Instagram story",
+          "frame": "Polls, question stickers, handwritten text, casual vertical.",
+          "why": "Feels organic. Founder can shoot this in one take."
+        },
+        {
+          "num": "31",
+          "name": "Native",
+          "frame": "Looks like a normal post in the feed: no logo open, no packshot in frame one, caption does the selling.",
+          "why": "Best default for a new brand. The product enters after the hook."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Problem and contrast",
+      "blurb": "The most reliable structures on this list. Name the real alternative, show the mess before the logo.",
+      "ads": [
+        {
+          "num": "6",
+          "name": "Us vs them",
+          "frame": "Split screen: old habit vs your product.",
+          "why": "Name the alternative people already use (another app, coffee, willpower), not a straw man."
+        },
+        {
+          "num": "10",
+          "name": "Myth vs fact",
+          "frame": "Two lines. Myth in red, fact in plain type.",
+          "why": "Good for a category full of bad advice. One myth per ad."
+        },
+        {
+          "num": "16",
+          "name": "Don't be an idiot",
+          "frame": "Blunt callout of a common mistake.",
+          "why": "Tone has to match the audience. Fine for builders and operators, wrong for anxious or clinical categories."
+        },
+        {
+          "num": "23",
+          "name": "Problem vs solution",
+          "frame": "Left side is the mess, right side is the outcome, product is the bridge.",
+          "why": "The most reliable structure on this list. Show the problem before the logo."
+        },
+        {
+          "num": "26",
+          "name": "You can avoid",
+          "frame": "“You can avoid [cost] if you stop [behavior].”",
+          "why": "Future-pace the pain, then one action."
+        },
+        {
+          "num": "30",
+          "name": "Problems",
+          "frame": "Rapid list of pains, each crossed out or stacked. End on the one problem you actually solve.",
+          "why": "Do not claim the whole list."
+        },
+        {
+          "num": "36",
+          "name": "Don't buy this",
+          "frame": "Reverse psychology: “Don’t buy this if you already [have the outcome].”",
+          "why": "Filters the wrong buyer and raises curiosity. Needs a real reason someone should not buy."
+        },
+        {
+          "num": "39",
+          "name": "New vs old",
+          "frame": "Before/after of the method, not just the result.",
+          "why": "“Old way: 4 apps and a spreadsheet. New way: one check-in.”"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Lists and education",
+      "blurb": "Teach something real. A self-diagnosis hook or a true mechanism earns attention even from people who never buy.",
+      "ads": [
+        {
+          "num": "20",
+          "name": "Tier list",
+          "frame": "S-to-F ranking of options in the category, your product placed with a reason.",
+          "why": "Works once you can defend the ranking. Arrogant if you have no track record."
+        },
+        {
+          "num": "22",
+          "name": "X signs",
+          "frame": "“5 signs your [system] is broken.” Self-diagnosis hook.",
+          "why": "Viewer counts how many apply, then you offer the fix."
+        },
+        {
+          "num": "27",
+          "name": "Reasons why",
+          "frame": "Numbered reasons, one per cut. Easy to shoot: founder, whiteboard, or text cards.",
+          "why": "Lead with the least obvious reason."
+        },
+        {
+          "num": "32",
+          "name": "Hack 101",
+          "frame": "One tactic, taught fast, product is the shortcut.",
+          "why": "Best early-stage format if you have a real mechanism. Teach the trick even if they never buy."
+        },
+        {
+          "num": "37",
+          "name": "Stat headline",
+          "frame": "One number, huge type: “73% of…”",
+          "why": "Only use a number you can source. Invented stats get skipped and can fail review."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Production styles",
+      "blurb": "Film founder versions of a proven script before paying for AI podcast or claymation versions of an unproven one.",
+      "ads": [
+        {
+          "num": "3",
+          "name": "Offer",
+          "frame": "Price, bundle, or guarantee is the visual.",
+          "why": "Useful after the angle is proven. Cold traffic rarely converts on a discount alone when the brand is unknown."
+        },
+        {
+          "num": "4",
+          "name": "Script",
+          "frame": "Teleprompter-style read, full script on screen or burned-in captions, founder talking straight.",
+          "why": "Write the hook in line one. Record 5 hooks, keep one body."
+        },
+        {
+          "num": "5",
+          "name": "Whiteboard",
+          "frame": "Marker, arrows, before/after diagram.",
+          "why": "High trust for anything with a mechanism (habit, finance, health, software). Phone on a tripod is enough."
+        },
+        {
+          "num": "7",
+          "name": "AI podcast",
+          "frame": "Two hosts, waveform, “we tested this” conversation.",
+          "why": "Pattern interrupt because it does not look like UGC. Keep claims ordinary — a fake expert with medical or financial claims is a review risk."
+        },
+        {
+          "num": "8",
+          "name": "Doodle",
+          "frame": "Hand-drawn stick figures over a voiceover.",
+          "why": "Good when the product is abstract. One idea, 15 seconds."
+        },
+        {
+          "num": "12",
+          "name": "Transformation",
+          "frame": "Before state, turning point, after state.",
+          "why": "For an early brand, transform the workflow or the week, not the person, unless you have consented footage."
+        },
+        {
+          "num": "15",
+          "name": "Bundle",
+          "frame": "Everything they get, stacked visually, price anchor at the end.",
+          "why": "Use when the offer is the advantage. Weak if the product is not understood yet."
+        },
+        {
+          "num": "18",
+          "name": "Side effect",
+          "frame": "“Side effect of using this: [unexpected good outcome].”",
+          "why": "Soft curiosity hook. The side effect has to be true."
+        },
+        {
+          "num": "25",
+          "name": "Claymation",
+          "frame": "Stop-motion clay look, usually AI-generated. Use it to show a mechanism — the problem as a character, the product as the fix.",
+          "why": "Stops the scroll because the feed is full of talking heads. Do not make the clay the strategy; put a proven script inside it."
+        },
+        {
+          "num": "35",
+          "name": "Greenscreen",
+          "frame": "Person in front of a screenshot, article, or product UI, pointing.",
+          "why": "Fastest way to add proof. Early stage: greenscreen your own app, a calendar, or a customer message."
+        },
+        {
+          "num": "38",
+          "name": "Meme",
+          "frame": "Existing meme format, your punchline.",
+          "why": "Good for organic and retargeting. Paid meme ads fatigue in days, so treat them as hooks, not evergreen."
+        }
+      ]
+    }
+  ],
+  "howToRun": [
+    "Pick one sharp angle. Example: “Your to-do list is why you never start.” Then wrap it four ways: Notes app, problem vs solution, 5 signs, greenscreen demo. Same script spine, different first frame.",
+    "Film founder versions before you pay for AI podcast or claymation. Those formats win when the words are already proven — they do not fix a vague product.",
+    "On every ad: hook in the first second, product by second 4–6, one claim, one next step. Captions burned in. No logo open."
+  ]
+}
