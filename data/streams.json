@@ -1,0 +1,75 @@
+{
+  "title": "Streams",
+  "eyebrow": "Dopami · Growth",
+  "subtitle": "A livestreaming playbook for earning new reach — for any brand. Dopami's ADHD body-doubling streams are the worked example throughout.",
+  "intro": "Live loses to produced video on polish, but wins on two things nothing else replicates: the real-time watch time platforms reward, and hours of raw footage a single stream hands you for weeks of short-form content. The brands that win with live treat the stream as a factory, not a performance.",
+  "categories": [
+    {
+      "id": 1,
+      "title": "The core loop",
+      "blurb": "Three moves that turn a livestream from a one-off broadcast into a reach engine.",
+      "ads": [
+        {
+          "num": "1",
+          "name": "Livestream your core use case, with real customers",
+          "frame": "Pick the single activity your product actually helps people do, and host it live with your community doing it together in real time. Choose a ritual people already want company for — working, practicing, studying, building — not a generic brand show.",
+          "why": "Dopami example: live-stream Done Together body-doubling — “work with me” / “study with me” streams are a proven live format, and body doubling is a real ADHD need. People come back daily and leave the stream running for hours, exactly the watch time live earns — and it feeds directly into the product."
+        },
+        {
+          "num": "2",
+          "name": "Run the deep-dive weekly, not daily",
+          "frame": "Depth beats frequency for authority content. Prepare one topic properly, go live for 45–60 minutes, and take real audience questions live instead of pre-scripting every answer.",
+          "why": "Dopami example: a weekly ADHD topic deep-dive — “why starting is the hardest part,” “what executive dysfunction actually feels like” — with live Q&A from the community."
+        },
+        {
+          "num": "3",
+          "name": "Cut every stream into a content pipeline",
+          "frame": "The live itself rarely drives new reach — the cut-downs do. Treat each stream as raw material: 5–8 Shorts plus one edited 10–12 minute video, pulled from the same session.",
+          "why": "Dopami example: keep the daily email topic bank, but repoint it at Shorts ideas instead of writing prompts only — the bank becomes the backlog for clip titles and hooks."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Make it compound",
+      "blurb": "Five more moves that keep the stream running without burning out the founder or starting from a blank page every week.",
+      "ads": [
+        {
+          "num": "4",
+          "name": "Name the show",
+          "frame": "A recurring stream needs a fixed title, time slot, and thumbnail style so it reads as a show people can set a reminder for, not a one-off broadcast.",
+          "why": "Dopami example: call it “Focus Hour,” same time every day, same simple thumbnail — recognizable in a crowded feed before anyone reads the caption."
+        },
+        {
+          "num": "5",
+          "name": "Let the chat become the content",
+          "frame": "Live comments and questions are a free discovery engine. The moment a viewer names their real problem live is usually your most shareable clip — better than anything scripted in advance.",
+          "why": "Dopami example: when someone in the body-doubling stream types “I finally started,” that's the Short — clip it (with consent) over anything pre-written."
+        },
+        {
+          "num": "6",
+          "name": "End on one low-friction CTA, and track the 48-hour conversion",
+          "frame": "Every stream should close the same way, pointed at the free or trial version of the core product, so you can actually measure whether live is building the funnel or just the audience.",
+          "why": "Dopami example: streams end with “stay in this room — open Done Together and keep working with us after the stream ends,” tracked against sign-ups in the next two days."
+        },
+        {
+          "num": "7",
+          "name": "Rotate a co-host instead of carrying it solo",
+          "frame": "Founder burnout kills consistency faster than any algorithm change. A rotating co-host — a teammate, a power user, a category expert — adds variety and brings their own audience to discover the stream.",
+          "why": "Dopami example: invite a real user to co-host a body-doubling session and talk through their actual routine instead of the founder narrating alone."
+        },
+        {
+          "num": "8",
+          "name": "Feed the live Q&A back into next week's content bank",
+          "frame": "Questions people ask live are pre-validated topic ideas — they already proved someone cares enough to ask out loud. Route them back into the backlog instead of starting from a blank page each week.",
+          "why": "Dopami example: questions from the weekly deep-dive become next week's Shorts, and the strongest ones graduate into the daily email prompt bank."
+        }
+      ]
+    }
+  ],
+  "howToRun": [
+    "Pick one ritual your product already supports, and go live doing it with your community for the first time this week — even unpolished.",
+    "Set a fixed day and time for the deep-dive, publicize it once, and only add a second stream per week after the first one has a steady return audience.",
+    "Build a lightweight clip workflow — even a single editor or a template — before the first stream ends, so the 5–8 Shorts actually ship within 48 hours. Momentum dies if the raw footage sits unused."
+  ]
+}

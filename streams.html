@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>B-Roll Shot List</title>
-  <meta name="description" content="104 B-roll shot ideas for Dopami founder films, organized by theme, plus a new shooting tip on every visit." />
+  <title>Streams</title>
+  <meta name="description" content="A livestreaming playbook for earning new reach, for any brand, with Dopami's ADHD body-doubling streams as the worked example." />
   <link rel="stylesheet" href="assets/style.css?v=3a364772" />
 </head>
 <body>
@@ -22,86 +22,69 @@
       </div>
     </div>
 
-    <p class="eyebrow"><span class="dot"></span> <span id="eyebrow-text">Dopami · Founder Film</span></p>
-    <h1 id="page-title">B-Roll Shot List</h1>
-    <p class="sub" id="subtitle">One consolidated list. Duplicates merged. Shot names you can call on set.</p>
+    <p class="eyebrow"><span class="dot"></span> <span id="eyebrow-text">Dopami · Growth</span></p>
+    <h1 id="page-title">Streams</h1>
+    <p class="sub" id="subtitle">A livestreaming playbook for earning new reach — for any brand.</p>
 
     <div class="hero-card" style="margin-bottom: 36px;">
-      <p class="nudge" id="how-to-use" style="margin: 0;"></p>
+      <p class="nudge" id="intro" style="margin: 0;"></p>
     </div>
 
     <div class="cat-nav" id="cat-nav"></div>
 
     <div id="categories"></div>
 
-    <div class="info-columns">
+    <div class="info-columns" style="grid-template-columns: 1fr;">
       <div class="info-box">
-        <h2>A simple filming order</h2>
-        <ol class="order-list" id="filming-order"></ol>
-      </div>
-      <div class="info-box">
-        <h2>Privacy checklist before you press record</h2>
-        <ul class="check-list" id="privacy-checklist"></ul>
+        <h2>How to start this week</h2>
+        <ol class="order-list" id="how-to-run"></ol>
       </div>
     </div>
-
-    <div class="tip-box">
-      <p class="tip-label">🎬 Shooting tip of the moment</p>
-      <p class="tip-text" id="tip-text">Loading…</p>
-    </div>
-    <p class="foot-note">Reload this page for another tip.</p>
   </div>
 
   <script type="module">
     async function init() {
-      const res = await fetch("data/broll.json");
+      const res = await fetch("data/streams.json");
       const data = await res.json();
 
       document.getElementById("eyebrow-text").textContent = data.eyebrow;
       document.getElementById("page-title").textContent = data.title;
       document.getElementById("subtitle").textContent = data.subtitle;
-      document.getElementById("how-to-use").textContent = data.howToUse;
+      document.getElementById("intro").textContent = data.intro;
 
       const catNav = document.getElementById("cat-nav");
       catNav.innerHTML = data.categories
-        .map((c) => `<a href="#cat-${c.id}">${c.id}. ${c.title} <span class="count">(${c.shots.length})</span></a>`)
+        .map((c) => `<a href="#cat-${c.id}">${c.id}. ${c.title} <span class="count">(${c.ads.length})</span></a>`)
         .join("");
 
       const root = document.getElementById("categories");
       root.innerHTML = data.categories.map(categoryHtml).join("");
 
-      document.getElementById("filming-order").innerHTML = data.filmingOrder
+      document.getElementById("how-to-run").innerHTML = data.howToRun
         .map((step, i) => `<li><span class="step-num">${i + 1}</span><span>${step}</span></li>`)
         .join("");
-
-      document.getElementById("privacy-checklist").innerHTML = data.privacyChecklist
-        .map((item) => `<li>${item}</li>`)
-        .join("");
-
-      const tip = data.tips[Math.floor(Math.random() * data.tips.length)];
-      document.getElementById("tip-text").textContent = tip;
     }
 
     function categoryHtml(cat) {
-      const cards = cat.shots.map(shotHtml).join("");
+      const cards = cat.ads.map(ideaHtml).join("");
       return `
         <section class="shot-category" id="cat-${cat.id}">
           <div class="category-head">
             <h2>${cat.id}. ${cat.title}</h2>
-            <span class="category-count">${cat.shots.length} shots</span>
+            <span class="category-count">${cat.ads.length} moves</span>
           </div>
           <p class="category-blurb">${cat.blurb}</p>
-          <div class="shot-grid">${cards}</div>
+          <div class="shot-grid" style="grid-template-columns: 1fr;">${cards}</div>
         </section>
       `;
     }
 
-    function shotHtml(s) {
+    function ideaHtml(a) {
       return `
         <div class="shot-card">
-          <span class="shot-num">${s.num}</span><span class="shot-name">${s.shot}</span>
-          <p class="shot-frame">${s.frame}</p>
-          <p class="shot-why">${s.why}</p>
+          <span class="shot-num">${a.num}</span><span class="shot-name">${a.name}</span>
+          <p class="shot-frame">${a.frame}</p>
+          <p class="shot-why">${a.why}</p>
         </div>
       `;
     }
