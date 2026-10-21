@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LinkedIn</title>
+  <meta name="description" content="28 LinkedIn posting prompts, each with 3 examples written for ADHD and Dopami." />
+  <link rel="stylesheet" href="assets/style.css?v=d72daf0d" />
+</head>
+<body>
+  <div class="wrap wide">
+    <div class="nav">
+      <a class="brand" href="index.html"><span aria-hidden="true">✍️</span> Daily Prompt</a>
+      <div class="nav-links">
+        <span class="dot" aria-hidden="true"></span>
+        <a href="index.html">Today's prompt</a>
+        <a href="topics.html">Browse topics</a>
+        <a href="broll.html">B-roll ideas</a>
+        <a href="reels.html">Reel ideas</a>
+        <a href="ads.html">Ads</a>
+        <a href="streams.html">Streams</a>
+        <a href="linkedin.html">LinkedIn</a>
+      </div>
+    </div>
+
+    <p class="eyebrow"><span class="dot"></span> <span id="eyebrow-text">Dopami · Founder brand</span></p>
+    <h1 id="page-title">LinkedIn</h1>
+    <p class="sub" id="subtitle"></p>
+
+    <div class="info-columns" style="margin-bottom: 36px;">
+      <div class="info-box">
+        <h2 id="profile-name">Written for</h2>
+        <ul class="check-list" id="profile-facts"></ul>
+      </div>
+      <div class="info-box">
+        <h2>How to use this</h2>
+        <ol class="order-list" id="how-to-use"></ol>
+      </div>
+    </div>
+
+    <div class="cat-nav" id="cat-nav"></div>
+
+    <div id="categories"></div>
+  </div>
+
+  <script type="module">
+    let data;
+
+    async function init() {
+      const res = await fetch("data/linkedin.json");
+      data = await res.json();
+
+      document.getElementById("eyebrow-text").textContent = data.eyebrow;
+      document.getElementById("page-title").textContent = data.title;
+      document.getElementById("subtitle").textContent = data.subtitle;
+      document.getElementById("profile-name").textContent = `Written for ${data.profile.name}`;
+
+      document.getElementById("profile-facts").innerHTML = [data.profile.headline, ...data.profile.facts]
+        .map((f) => `<li>${f}</li>`)
+        .join("");
+
+      document.getElementById("how-to-use").innerHTML = data.howToUse
+        .map((step, i) => `<li><span class="step-num">${i + 1}</span><span>${step}</span></li>`)
+        .join("");
+
+      document.getElementById("cat-nav").innerHTML = data.categories
+        .map((c) => `<a href="#cat-${c.id}">${c.id}. ${c.title} <span class="count">(${c.items.length})</span></a>`)
+        .join("");
+
+      document.getElementById("categories").innerHTML = data.categories.map(categoryHtml).join("");
+
+      document.getElementById("categories").addEventListener("click", onCopy);
+    }
+
+    function categoryHtml(cat) {
+      return `
+        <section class="shot-category" id="cat-${cat.id}">
+          <div class="category-head">
+            <h2>${cat.id}. ${cat.title}</h2>
+            <span class="category-count">${cat.items.length} prompts</span>
+          </div>
+          <p class="category-blurb">${cat.blurb}</p>
+          <div class="shot-grid">${cat.items.map(itemHtml).join("")}</div>
+        </section>
+      `;
+    }
+
+    function itemHtml(item) {
+      return `
+        <div class="shot-card prompt-card" id="prompt-${item.num}">
+          <span class="shot-num">${item.num}</span><span class="shot-name">${item.name}</span>
+          <p class="shot-frame">${item.prompt}</p>
+          <p class="example-label">3 examples for Dopami</p>
+          <ol class="example-list">${item.examples.map((e) => `<li><span>${e}</span></li>`).join("")}</ol>
+          <button class="copy-btn" type="button" data-num="${item.num}">Copy prompt</button>
+        </div>
+      `;
+    }
+
+    async function onCopy(e) {
+      const btn = e.target.closest(".copy-btn");
+      if (!btn) return;
+      const item = data.categories.flatMap((c) => c.items).find((i) => i.num === Number(btn.dataset.num));
+      const text = [
+        item.prompt,
+        "",
+        "Angles to choose from:",
+        ...item.examples.map((ex, i) => `${i + 1}. ${ex}`),
+        "",
+        data.context,
+      ].join("\n");
+      try {
+        await navigator.clipboard.writeText(text);
+        btn.textContent = "Copied ✓";
+      } catch {
+        btn.textContent = "Copy failed";
+      }
+      setTimeout(() => (btn.textContent = "Copy prompt"), 1800);
+    }
+
+    init();
+  </script>
+</body>
+</html>
