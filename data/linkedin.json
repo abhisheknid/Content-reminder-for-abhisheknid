@@ -1,7 +1,7 @@
 {
   "title": "LinkedIn",
   "eyebrow": "Dopami · Founder brand",
-  "subtitle": "28 posting prompts based on 28 growth tactics, each with 3 ready-to-adapt examples for ADHD and Dopami.",
+  "subtitle": "50 ADHD writing prompts refreshed every month, plus the 28 posting tactics that help them land.",
   "profile": {
     "name": "Abhishek K",
     "headline": "Building Dopami (AI Agents for 380M+ ADHD minds)",
@@ -15,10 +15,10 @@
   },
   "context": "Context about me: I'm Abhishek K, co-founder of Dopami. We're building AI agents and an AI cognitive layer for the 380M+ people with ADHD; Done Together is our body-doubling and co-working space. Before Dopami I led product design at Flam (mixed-reality experiences reaching millions) and was Product Design Head at Betaflux. I studied at the National Institute of Design (NID). I have about 3,800 LinkedIn followers. My audience is adults with ADHD, ADHD coaches and clinicians, founders and product builders, and investors. Tone: honest, specific and human. No hype, no medical claims, no invented statistics. Use [placeholders] wherever a real number or story of mine is needed.",
   "howToUse": [
-    "Pick 3–5 prompts a week, from at least two different groups, so the feed mixes trust, craft and conversion.",
-    "Use “Copy prompt” to paste the prompt plus your profile context into Claude, then pick one of the 3 examples as the angle.",
-    "Fill every [placeholder] with a real number or story. If you don't have one yet, choose a different example.",
-    "Read the draft out loud (prompt 24) before posting, and log the result for your 30-day review (prompt 27)."
+    "Start with this month's 50 ADHD prompts. Pick 3–5 a week and mix themes so the feed isn't all one note.",
+    "Use the 28 tactic prompts below to shape each post: the hook, the format and the CTA.",
+    "“Copy prompt” bundles the prompt with your profile context, ready to paste into Claude.",
+    "Fill every [placeholder] with something real, read the draft out loud, then post."
   ],
   "categories": [
     {
@@ -29,42 +29,22 @@
         {
           "num": 1,
           "name": "Post 3–5x/week",
-          "prompt": "Write a short LinkedIn post that explains why posting 3–5 times a week beats posting once a week, using a simple before/after comparison of consistency vs intensity. Keep it under 150 words and end with a light CTA.",
-          "examples": [
-            "Hyperfocus vs. habit: “My ADHD brain loves one 2,000-word Sunday post. My audience grew when I switched to four short ones.” Before/after: [your real numbers].",
-            "Tie it to the product: consistency over intensity is the same principle Dopami is built on. Fifteen minutes a day beats a heroic all-nighter, for tasks and for posting.",
-            "Build-in-public cadence: “4 posts a week while building Dopami = 4 small honest notes from the build, not 1 polished launch.” CTA: “What's your posting rhythm?”"
-          ]
+          "prompt": "Write a short LinkedIn post that explains why posting 3–5 times a week beats posting once a week, using a simple before/after comparison of consistency vs intensity. Keep it under 150 words and end with a light CTA."
         },
         {
           "num": 24,
           "name": "Read posts out loud",
-          "prompt": "Write a LinkedIn post about the habit of reading every draft out loud before publishing. Share what kinds of problems this catches and why it improves engagement.",
-          "examples": [
-            "ADHD honesty: “My drafts have three tangents per paragraph. Reading them out loud is how I find the one that matters.”",
-            "What it catches: run-on sentences, insider jargon (“cognitive layer” needs explaining out loud) and posts that never actually ask for anything.",
-            "The low-effort version: let your phone's text-to-speech read the draft back to you. Hearing it in someone else's voice exposes the clunky lines."
-          ]
+          "prompt": "Write a LinkedIn post about the habit of reading every draft out loud before publishing. Share what kinds of problems this catches and why it improves engagement."
         },
         {
           "num": 27,
           "name": "Review every 30 days",
-          "prompt": "Write a LinkedIn post about reviewing your content performance every 30 days. Include 3 specific metrics or questions to review and what to change based on the findings.",
-          "examples": [
-            "Baseline post: “30 days ago I had 3,808 followers. Here's what changed, what I'm cutting and what I'm doubling down on.” Use your real end number.",
-            "Three questions: Which hooks earned profile visits? Which topics brought comments from ADHD coaches and builders? Which posts drove Dopami waitlist signups (via UTM)?",
-            "ADHD-friendly review: put it on a calendar, ask someone to sit with you while you do it (body doubling), and change one thing next month, not five."
-          ]
+          "prompt": "Write a LinkedIn post about reviewing your content performance every 30 days. Include 3 specific metrics or questions to review and what to change based on the findings."
         },
         {
           "num": 28,
           "name": "Give it 90 days",
-          "prompt": "Write a motivational yet practical LinkedIn post about committing to LinkedIn for 90 days. Use a growth-curve style narrative and end with the line “Give yourself 90 days.”",
-          "examples": [
-            "The founder curve: “Weeks 1–4: crickets. Weeks 5–8: a few DMs from ADHD coaches. Weeks 9–12: the first people who found Dopami through a post.” Only include stages you actually hit.",
-            "The ADHD angle: “90 days is a long time for a brain that runs on novelty. Here's how I made it a streak instead of a resolution.”",
-            "From design leader to founder: “At Flam I shipped to millions. As a founder I started at zero. 90 days of posting is how I'm building that again.” End with “Give yourself 90 days.”"
-          ]
+          "prompt": "Write a motivational yet practical LinkedIn post about committing to LinkedIn for 90 days. Use a growth-curve style narrative and end with the line “Give yourself 90 days.”"
         }
       ]
     },
@@ -76,42 +56,22 @@
         {
           "num": 2,
           "name": "Build know, like, trust",
-          "prompt": "Write a LinkedIn post that shows how to build know-like-trust through content. Use one personal example of a post that created trust, then give 3 specific content types that accelerate trust.",
-          "examples": [
-            "The trust post: “The post that built the most trust wasn't a launch. It was admitting [a real ADHD moment, e.g. a deadline I set and missed].” Then: build-in-public updates, user stories (with consent), your own workarounds.",
-            "Show the work: “Years leading product design at Betaflux and Flam taught me trust comes from showing decisions, not polish. So I'm sharing Dopami's.”",
-            "Three post types that made people DM me about Dopami: a behind-the-scenes screen, a “what I got wrong” post and a plain-English body doubling explainer."
-          ]
+          "prompt": "Write a LinkedIn post that shows how to build know-like-trust through content. Use one personal example of a post that created trust, then give 3 specific content types that accelerate trust."
         },
         {
           "num": 5,
           "name": "Pick better topics",
-          "prompt": "Write a LinkedIn post that shows how to choose better topics by combining audience pain + your unique experience. Include a quick “topic filter” checklist of 3–4 questions.",
-          "examples": [
-            "Pain + experience: task paralysis (their pain) + designing first-time experiences for millions at Flam (your edge) = “What productivity apps get wrong in the first session for ADHD users.”",
-            "The filter: Does my audience feel this every week? Do I have a story only I can tell? Can I say it in one line? Does it lead toward Dopami without a pitch?",
-            "“Topics I killed this month”: show 3 generic AI-hype ideas that failed the filter, and the ADHD-specific one that replaced them."
-          ]
+          "prompt": "Write a LinkedIn post that shows how to choose better topics by combining audience pain + your unique experience. Include a quick “topic filter” checklist of 3–4 questions."
         },
         {
           "num": 13,
           "name": "Borrow from experts",
-          "prompt": "Write a LinkedIn post that smartly borrows an idea from an expert (with credit) and adds your own experience or twist. Show how to do this ethically and make it original.",
-          "examples": [
-            "Credit Dr. Russell Barkley's line that ADHD isn't a problem of knowing what to do but of doing what you know. Then show how that one idea shapes how Dopami is designed.",
-            "Borrow BJ Fogg's “make it tiny” from Tiny Habits, then add your twist: for many ADHD brains, tiny isn't enough without a trigger or another person present.",
-            "Borrow a design principle you learned at NID and apply it to ADHD tools. Name the source, quote it exactly and spend most of the post on what you'd add."
-          ]
+          "prompt": "Write a LinkedIn post that smartly borrows an idea from an expert (with credit) and adds your own experience or twist. Show how to do this ethically and make it original."
         },
         {
           "num": 20,
           "name": "Personal = IRL photo",
-          "prompt": "Write a LinkedIn post that pairs a personal story or insight with the instruction to use a real-life photo. Explain why authentic photos outperform stock images for building trust.",
-          "examples": [
-            "Your actual desk mid-build (crop any screens with private info) plus a story from one real day of building Dopami.",
-            "The team in the room where you argue about onboarding (ask before posting anyone's face), plus one decision you made together this week.",
-            "An old NID sketchbook page, plus how design school shaped the way you now think about ADHD."
-          ]
+          "prompt": "Write a LinkedIn post that pairs a personal story or insight with the instruction to use a real-life photo. Explain why authentic photos outperform stock images for building trust."
         }
       ]
     },
@@ -123,52 +83,27 @@
         {
           "num": 4,
           "name": "Master curiosity gaps",
-          "prompt": "Write a LinkedIn post that opens with a strong curiosity gap, then delivers the payoff. Teach the reader how to create curiosity gaps without clickbait, using 2 clear examples.",
-          "examples": [
-            "Hook: “The most productive hour of my week happens with my camera on and my mouth shut.” Payoff: body doubling, and why we built Done Together around it.",
-            "Clickbait vs. curiosity: “This ADHD hack changed my life” vs. “Why people with ADHD clean the whole kitchen instead of sending one email.”",
-            "Hook: “We cut the feature our early users asked for most.” Payoff: the reasoning. Only use this if it actually happened."
-          ]
+          "prompt": "Write a LinkedIn post that opens with a strong curiosity gap, then delivers the payoff. Teach the reader how to create curiosity gaps without clickbait, using 2 clear examples."
         },
         {
           "num": 6,
           "name": "CPIO framework",
-          "prompt": "Write a LinkedIn post explaining the CPIO framework (Convey → Package → Information) for writing better LinkedIn posts. Show one weak post vs one strong post rewritten with the framework.",
-          "examples": [
-            "Weak: “Dopami helps people with ADHD focus using AI.” Strong: convey one idea (“Your tools assume a brain you don't have”), package it as a 3-line contrast, then give the information on how Dopami adapts.",
-            "Weak hiring post: “We're hiring a designer.” Strong: convey why the role matters, package it as “what you'd own in month one”, then give the information on how to apply.",
-            "Weak explainer: “Body doubling is a productivity technique.” Strong: convey the feeling, package it as a 25-minute story, then give the information on how to try it today."
-          ]
+          "prompt": "Write a LinkedIn post explaining the CPIO framework (Convey → Package → Information) for writing better LinkedIn posts. Show one weak post vs one strong post rewritten with the framework."
         },
         {
           "num": 17,
           "name": "Lead with outcome",
-          "prompt": "Write a LinkedIn post that leads with a clear outcome in the first line. Show the difference between a feature-led opener and an outcome-led opener with a before/after example.",
-          "examples": [
-            "Feature-led: “Dopami uses AI agents that adapt to your brain.” Outcome-led: “Start the task you've been avoiding, today.” Keep the outcome honest; don't promise results you can't back up.",
-            "Hiring: “We're hiring a designer” vs. “Design the first product 380M ADHD minds don't have to fight.”",
-            "Video: “Watch our new video” vs. “If your focus disappears at 3pm, this video is for you.” Link the Flip the ADHD Switch video."
-          ]
+          "prompt": "Write a LinkedIn post that leads with a clear outcome in the first line. Show the difference between a feature-led opener and an outcome-led opener with a before/after example."
         },
         {
           "num": 18,
           "name": "Complete tactical posts",
-          "prompt": "Write a highly tactical LinkedIn post that someone can implement in under 10 minutes. Include numbered steps and zero fluff. Make the value immediate.",
-          "examples": [
-            "Build a “launch pad” by your door in 10 minutes: one tray, then keys, wallet, phone and earphones, then a habit cue for the night before.",
-            "Your first body-doubling session today: pick a 25-minute block, invite one person on video, each say your task out loud, cameras on, start.",
-            "Make your phone less of a trap in 10 minutes: grayscale on, social apps off the home screen, notifications off for everything except people."
-          ]
+          "prompt": "Write a highly tactical LinkedIn post that someone can implement in under 10 minutes. Include numbered steps and zero fluff. Make the value immediate."
         },
         {
           "num": 19,
           "name": "Keep posts concise",
-          "prompt": "Write a concise LinkedIn post (under 120 words) that teaches one sharp idea. Demonstrate how cutting words increases clarity and engagement.",
-          "examples": [
-            "“Your to-do list isn't a plan. It's a pile. Pick one thing. Make it smaller. Start.”",
-            "Show the edit: a 300-word Dopami update cut to 90 words, with both versions side by side.",
-            "One sharp idea: “Motivation usually follows starting, not the other way round.” Then say what that means for how Dopami is designed."
-          ]
+          "prompt": "Write a concise LinkedIn post (under 120 words) that teaches one sharp idea. Demonstrate how cutting words increases clarity and engagement."
         }
       ]
     },
@@ -180,32 +115,17 @@
         {
           "num": 21,
           "name": "Processes = infographics",
-          "prompt": "Write a LinkedIn post that describes a process and explicitly recommends turning it into an infographic or carousel. Outline the exact steps that should appear in the visual.",
-          "examples": [
-            "“How I turn a big task into a first step”: name the task → find the first verb → shrink it to 2 minutes → start a timer. Four panels.",
-            "“My weekly content system”: daily writing prompt → weekly reel ideas → B-roll shot list → one long video. A flow diagram.",
-            "“From user interview to shipped feature in 5 steps”, from your design-leadership years. One step per panel."
-          ]
+          "prompt": "Write a LinkedIn post that describes a process and explicitly recommends turning it into an infographic or carousel. Outline the exact steps that should appear in the visual."
         },
         {
           "num": 22,
           "name": "Listicles = Carousels",
-          "prompt": "Write a LinkedIn post idea that works better as a carousel. Provide the hook + 5–7 slide titles so it can be turned into a carousel immediately.",
-          "examples": [
-            "Hook: “7 signs your productivity system was built for a brain that isn't yours.” One sign per slide, with Dopami on the last slide.",
-            "Hook: “5 things I unlearned going from product design lead to founder.” One lesson per slide.",
-            "Hook: “6 ADHD myths, one per slide.” Myth in red, fact in plain type. Every fact must be supportable; link sources in the caption."
-          ]
+          "prompt": "Write a LinkedIn post idea that works better as a carousel. Provide the hook + 5–7 slide titles so it can be turned into a carousel immediately."
         },
         {
           "num": 23,
           "name": "News = screenshots",
-          "prompt": "Write a LinkedIn post that comments on a piece of industry news and recommends using a screenshot. Show how to add original analysis so it's not just reposting.",
-          "examples": [
-            "A new piece of ADHD research or a policy change: screenshot the headline, then add what it means for the people building tools, and what tools still can't fix.",
-            "A big AI model release: screenshot it, then explain what it changes (and what it doesn't) for assistive AI for neurodivergent users.",
-            "A mental-health tech funding round: screenshot it, then give your contrarian read on where the category is heading and where Dopami differs."
-          ]
+          "prompt": "Write a LinkedIn post that comments on a piece of industry news and recommends using a screenshot. Show how to add original analysis so it's not just reposting."
         }
       ]
     },
@@ -217,52 +137,27 @@
         {
           "num": 3,
           "name": "Make a content funnel",
-          "prompt": "Write a LinkedIn post that maps a simple content funnel (top → middle → bottom) for LinkedIn. Give one example post for each stage and explain what the reader should do next at every level.",
-          "examples": [
-            "User funnel. Top: “Why your to-do list is why you never start” (follow). Middle: “How body doubling works and why we built Done Together” (visit profile). Bottom: “Opening [N] early-access spots” (comment or DM).",
-            "Hiring and fundraising funnel. Top: the 380M underserved vision. Middle: a build log showing progress. Bottom: “We're hiring a [role]” or “Raising our [round]”.",
-            "Video funnel. Top: a 30-second clip. Middle: the full Flip the ADHD Switch video. Bottom: the Dopami waitlist link."
-          ]
+          "prompt": "Write a LinkedIn post that maps a simple content funnel (top → middle → bottom) for LinkedIn. Give one example post for each stage and explain what the reader should do next at every level."
         },
         {
           "num": 11,
           "name": "Don't fear CTAs",
-          "prompt": "Write a LinkedIn post that demonstrates how to use clear CTAs without sounding salesy. Give 5 natural CTA examples that drive comments, DMs, or profile visits.",
-          "examples": [
-            "Comment CTA: “If you've ever cleaned the whole kitchen instead of sending one email, tell me what your ‘kitchen’ is.”",
-            "Lead-magnet CTA: “Comment ‘START’ and I'll send you the 5-minute start ritual.”",
-            "DM CTA: “If you'd test Dopami for a week, DM me. I read every reply.” Profile CTA: “Follow along if you're building for neurodivergent users.”"
-          ]
+          "prompt": "Write a LinkedIn post that demonstrates how to use clear CTAs without sounding salesy. Give 5 natural CTA examples that drive comments, DMs, or profile visits."
         },
         {
           "num": 12,
           "name": "Give away knowledge",
-          "prompt": "Write a LinkedIn post that gives away a useful piece of knowledge or framework for free. End by showing how giving knowledge away actually attracts the right clients.",
-          "examples": [
-            "Give away your Seen / Helped / Belong content framework: make people feel seen, give them a small win, then invite them in.",
-            "Give away a body-doubling session template anyone can run with a friend on a video call.",
-            "Give away 3 ADHD-friendly design principles from your design work (for example, one decision per screen and visible progress), then explain why sharing them brings the right users and hires."
-          ]
+          "prompt": "Write a LinkedIn post that gives away a useful piece of knowledge or framework for free. End by showing how giving knowledge away actually attracts the right clients."
         },
         {
           "num": 15,
           "name": "Track attribution (UTM)",
-          "prompt": "Write a LinkedIn post explaining why tracking attribution with UTM links matters for content. Give a simple example of how to set it up and what decisions it helps you make.",
-          "examples": [
-            "“Every link to Dopami's waitlist in my posts carries a UTM tag. Last month [X] signups came from [post type].” Use real numbers only.",
-            "Set it up: ?utm_source=linkedin&utm_medium=post&utm_campaign=start-ritual. One campaign tag per post idea.",
-            "The decision it unlocked: which format to stop (for example, polished launch posts) and which to double down on (for example, raw ADHD moments)."
-          ]
+          "prompt": "Write a LinkedIn post explaining why tracking attribution with UTM links matters for content. Give a simple example of how to set it up and what decisions it helps you make."
         },
         {
           "num": 26,
           "name": "Create free resources",
-          "prompt": "Write a LinkedIn post that promotes a free resource (checklist, template, or guide). Structure it so the post itself delivers value and the resource is a natural next step.",
-          "examples": [
-            "“The 5-minute start ritual” checklist: put 3 of the steps in the post and the full version in the resource.",
-            "An ADHD-friendly weekly planning template (Notion or Google Sheets). Show one filled-in example in the post.",
-            "A body-doubling guide for remote teams. The post explains why it works; the guide covers how to run it every week."
-          ]
+          "prompt": "Write a LinkedIn post that promotes a free resource (checklist, template, or guide). Structure it so the post itself delivers value and the resource is a natural next step."
         }
       ]
     },
@@ -274,42 +169,22 @@
         {
           "num": 10,
           "name": "Build a custom feed",
-          "prompt": "Write a LinkedIn post teaching people how to build a high-signal custom feed. Include 3 specific steps and what to unfollow/mute so the algorithm works for you.",
-          "examples": [
-            "Three steps: follow ADHD clinicians and researchers, follow neurodivergent founders and creators, and leave thoughtful comments on 10 of their posts a day.",
-            "“My feed used to be design portfolios. Now it's ADHD founders, coaches and parents. Here's how I rebuilt it in 20 minutes.”",
-            "What to mute: “wake up at 5am” hustle content. It's the opposite of what most ADHD brains need, and it trains your feed in the wrong direction."
-          ]
+          "prompt": "Write a LinkedIn post teaching people how to build a high-signal custom feed. Include 3 specific steps and what to unfollow/mute so the algorithm works for you."
         },
         {
           "num": 14,
           "name": "DM 100 ICPs/week",
-          "prompt": "Write a LinkedIn post about the practice of DMing 100 ideal clients per week. Share a simple outreach structure that gets replies without being spammy, plus what to track.",
-          "examples": [
-            "“I messaged 100 ADHD coaches in one week. Here's what I learned.” Share your real reply rate.",
-            "A three-line message: a specific line from their post, what you're building in one sentence, one question about their clients. No link in the first message.",
-            "What to track: messages sent → replies → calls → beta testers. Use a simple sheet, and say what you'd change in week two."
-          ]
+          "prompt": "Write a LinkedIn post about the practice of DMing 100 ideal clients per week. Share a simple outreach structure that gets replies without being spammy, plus what to track."
         },
         {
           "num": 16,
           "name": "Mine sales calls",
-          "prompt": "Write a LinkedIn post that shows how to turn sales-call insights into content. Give 3 types of gold you can extract from calls and how to turn each into a post.",
-          "examples": [
-            "Exact phrases from user interviews (“I'm not lazy, I'm stuck”) become hooks. Use them anonymously or with permission.",
-            "Objections become posts: an investor asked “Isn't this just a to-do app?” Here's my answer.",
-            "Aha moments become stories: “A beta user said [quote, with permission]. That one sentence changed our onboarding.”"
-          ]
+          "prompt": "Write a LinkedIn post that shows how to turn sales-call insights into content. Give 3 types of gold you can extract from calls and how to turn each into a post."
         },
         {
           "num": 25,
           "name": "Track ICP viewers",
-          "prompt": "Write a LinkedIn post about tracking who from your ICP is viewing your content. Explain a simple way to do this and how to follow up without being creepy.",
-          "examples": [
-            "Weekly routine: check profile viewers and post analytics by job title (ADHD coaches, therapists, founders, investors). Note repeat visitors.",
-            "Follow-up: comment on their latest post first. If they keep engaging, send “Saw you've been following the Dopami build. What would make it useful for your clients?”",
-            "The no-creep rule: never open with “I saw you viewed my profile.” Lead with their work, not your analytics."
-          ]
+          "prompt": "Write a LinkedIn post about tracking who from your ICP is viewing your content. Explain a simple way to do this and how to follow up without being creepy."
         }
       ]
     },
@@ -321,32 +196,17 @@
         {
           "num": 7,
           "name": "Name your processes",
-          "prompt": "Write a LinkedIn post that names a specific process you use (e.g. “The 3-Step Outreach Audit” or “The Weekly Content Sprint”). Break it down in 3–5 clear steps so readers can steal it.",
-          "examples": [
-            "“The Body-Double Block”: one 25-minute session, one task said out loud, cameras on, a 2-minute check-in at the end.",
-            "“The 5-Minute Permission Rule”: start a task with permission to stop after five minutes, and notice how often you keep going.",
-            "“The Weekly Content Sprint”: Monday's reel ideas, a daily writing prompt and one batch-filming block. That's the system this website runs on."
-          ]
+          "prompt": "Write a LinkedIn post that names a specific process you use (e.g. “The 3-Step Outreach Audit” or “The Weekly Content Sprint”). Break it down in 3–5 clear steps so readers can steal it."
         },
         {
           "num": 8,
           "name": "Diagnose flops",
-          "prompt": "Write a LinkedIn post that shows how to diagnose why a post flopped. Give 3 common reasons posts underperform and the exact fix for each, based on real patterns.",
-          "examples": [
-            "“My post about Dopami's AI architecture flopped. Diagnosis: a feature-led hook, no person in it, and no clear ask.” Fix: lead with a user's moment.",
-            "Three reasons: the hook was about us rather than them, it was too long to read on a phone, and it never said what to do next. Give the fix for each.",
-            "Statistics vs. stories: compare a numbers-led ADHD post with a lived-moment post using your real data. Only draw the conclusion if your data supports it."
-          ]
+          "prompt": "Write a LinkedIn post that shows how to diagnose why a post flopped. Give 3 common reasons posts underperform and the exact fix for each, based on real patterns."
         },
         {
           "num": 9,
           "name": "Use AI for research",
-          "prompt": "Write a LinkedIn post about using AI for research (not writing). Show a practical workflow: how to feed AI the right inputs, extract insights, and turn them into original posts without sounding robotic.",
-          "examples": [
-            "Paste 20 anonymized user-interview notes into Claude, ask for the phrases people repeat, and turn the most repeated one into a hook written in your own words.",
-            "Use AI to collect the questions people ask about ADHD and focus in public forums, then answer the best one from your own experience.",
-            "Give AI your last 30 posts and their stats, and ask what separates the top 5 from the bottom 5. You write the post; the AI finds the pattern. An AI-for-ADHD founder doing this is on-brand."
-          ]
+          "prompt": "Write a LinkedIn post about using AI for research (not writing). Show a practical workflow: how to feed AI the right inputs, extract insights, and turn them into original posts without sounding robotic."
         }
       ]
     }

@@ -94,6 +94,13 @@ To stop relying on the Claude Routine and run entirely on GitHub's infra instead
 get two emails. GitHub disables scheduled workflows automatically after **60 days with no repository
 activity** — something to know if you go this route.
 
+## Monthly LinkedIn prompt refresh
+
+On the 1st of each month at 9:56am IST, a Claude Routine rewrites [`data/linkedin-viral.json`](data/linkedin-viral.json):
+it moves the current month's hooks into `archive`, writes 50 new ADHD prompts (5 themes × 10) that don't
+reuse any archived hook, runs `node scripts/validate-linkedin-viral.mjs`, commits, pushes and redeploys the
+site. The LinkedIn page shows the current month and lists past months under "Previous months".
+
 ## Testing
 
 **Preview an email without sending it:**
@@ -128,7 +135,8 @@ data/broll.json                     104 B-roll shots, grouped into 8 categories
 data/reels.json                     100 reel ideas, grouped into 3 pillars (Seen/Helped/Belong)
 data/ads.json                       39 ad angles/formats, grouped into 6 categories
 data/streams.json                   livestreaming playbook (generic + Dopami worked example), 2 categories
-data/linkedin.json                  28 LinkedIn posting prompts, 3 Dopami examples each, plus profile context
+data/linkedin.json                  28 LinkedIn posting-tactic prompts, plus profile context for the copy button
+data/linkedin-viral.json            this month's 50 ADHD LinkedIn writing prompts + archive of past months' hooks
 assets/rotation.js                  shared "what's today's prompt" logic (site + daily email)
 assets/reelRotation.js              shared "this week's 3 reel ideas" logic (site + weekly email)
 assets/copy.js                      shared nudge / starter-question copy (site + daily email)
@@ -139,7 +147,8 @@ broll.html                          browse all B-roll shots by category, with a 
 reels.html                          browse all 100 reel ideas by pillar
 ads.html                             browse all 39 ad angles/formats, grouped by category, plus a "start here" and run-it playbook
 streams.html                         livestreaming playbook for earning new reach, generic + a Dopami worked example per idea
-linkedin.html                        28 LinkedIn posting prompts in 7 groups, with a copy-to-Claude button per prompt
+linkedin.html                        50 monthly ADHD prompts + 28 posting tactics, with a copy-to-Claude button per prompt
+scripts/validate-linkedin-viral.mjs  checks the monthly batch: 5 themes × 10, numbered 1–50, no reused hooks
 scripts/send-daily-email.mjs        daily writing-prompt email sender (Nodemailer + Gmail SMTP)
 scripts/send-weekly-reels-email.mjs weekly 3-reel-ideas email sender (Nodemailer + Gmail SMTP)
 .github/workflows/daily-email.yml         cron trigger for the daily email (manual/backup)
