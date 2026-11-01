@@ -1,7 +1,7 @@
 {
-  "month": "2026-10",
-  "monthLabel": "October 2026",
-  "updatedOn": "2026-10-21",
+  "month": "2026-11",
+  "monthLabel": "November 2026",
+  "updatedOn": "2026-11-01",
   "intro": "50 ADHD topics with a strong chance of spreading on LinkedIn: specific, relatable, slightly contrarian, and easy to tell as a story. A fresh set is written on the 1st of every month, and no hook from a previous month is reused.",
   "note": "First-person prompts assume lived experience. If it isn't yours, frame it as what you've heard from users (with permission), or pick another prompt. No medical claims and no invented numbers: fill [placeholders] with real ones.",
   "themes": [
@@ -9,82 +9,389 @@
       "id": "work",
       "title": "Work & career",
       "prompts": [
-        { "num": 1, "hook": "I didn't miss the deadline because I didn't care. I missed it because I cared too much to start.", "prompt": "Write about the gap between caring and starting at work, and the one thing that finally closes it for you.", "format": "Text" },
-        { "num": 2, "hook": "A 30-minute meeting costs my ADHD brain the whole afternoon.", "prompt": "Explain the hidden cost of context-switching, then propose one meeting norm every team could adopt this week.", "format": "Text" },
-        { "num": 3, "hook": "My best performance review came from my worst habit.", "prompt": "Tell the story of hyperfocus as both an asset and a liability, and what you now do to steer it.", "format": "Text" },
-        { "num": 4, "hook": "What I wish my first manager knew about ADHD.", "prompt": "Five short, specific things a manager could do differently, one per slide. Make them practical, not a lecture.", "format": "Carousel" },
-        { "num": 5, "hook": "Open-plan offices are an accessibility issue.", "prompt": "Make a respectful contrarian case, with one concrete alternative that works for everyone.", "format": "Text" },
-        { "num": 6, "hook": "Job interviews test performance under pressure, not the work itself.", "prompt": "Write about interviewing with ADHD and suggest one change hiring teams could make tomorrow.", "format": "Text" },
-        { "num": 7, "hook": "Should you tell your employer you have ADHD?", "prompt": "Share the honest trade-offs from your own experience or from people you've spoken to. Don't give legal advice; describe what helped and what didn't.", "format": "Text" },
-        { "num": 8, "hook": "The ADHD tax at work that nobody budgets for.", "prompt": "List the real costs: missed reimbursements, forgotten renewals, late fees. Use your own [examples] and end with one fix for each.", "format": "Carousel" },
-        { "num": 9, "hook": "Remote work saved my career, and nearly ended it.", "prompt": "Write both sides: what home working unlocks for ADHD brains and what it quietly takes away.", "format": "Text" },
-        { "num": 10, "hook": "3 tiny changes that help your ADHD teammates (and everyone else).", "prompt": "Written agendas, one named owner per task, async updates. Explain why each one works, in a sentence.", "format": "Carousel" }
+        {
+          "num": 1,
+          "hook": "Year-end reviews ask ADHD brains to remember 12 months. Most of us barely remember Tuesday.",
+          "prompt": "Write about performance-review season and the running “wins doc” habit that saves you from blanking.",
+          "format": "Text"
+        },
+        {
+          "num": 2,
+          "hook": "Q4 deadlines don't create urgency for me. They create paralysis.",
+          "prompt": "Explain the difference between pressure that activates you and pressure that freezes you, and how you split one big Q4 goal into a first step.",
+          "format": "Text"
+        },
+        {
+          "num": 3,
+          "hook": "The best workplace accommodation I ever got cost my company nothing.",
+          "prompt": "Share one specific, low-cost adjustment (written follow-ups, a quiet hour, a flexible start) and why it worked. Only if it's real.",
+          "format": "Text"
+        },
+        {
+          "num": 4,
+          "hook": "New research on neurodivergence at work. Here's what managers should actually take from it.",
+          "prompt": "Screenshot a recent study's headline (for example NDSU's September 2026 workplace research), summarise it accurately, and add your own practical takeaway without overstating the findings.",
+          "format": "Screenshot"
+        },
+        {
+          "num": 5,
+          "hook": "I write my meeting notes before the meeting.",
+          "prompt": "Explain how drafting the agenda and the decision you need ahead of time keeps an ADHD brain on track, with a before/after example.",
+          "format": "Text"
+        },
+        {
+          "num": 6,
+          "hook": "Companies are publishing ADHD guides. Most miss the one thing that matters.",
+          "prompt": "React to the new wave of employer ADHD guidance: what it gets right, and the one thing you'd add (asking the person what helps them).",
+          "format": "Text"
+        },
+        {
+          "num": 7,
+          "hook": "My calendar has buffer blocks and I'll defend them in any meeting.",
+          "prompt": "Show a redacted week with transition buffers and explain why switching costs more than the meetings themselves.",
+          "format": "Screenshot"
+        },
+        {
+          "num": 8,
+          "hook": "The hardest part of my job isn't the work. It's switching between kinds of work.",
+          "prompt": "Write about task-switching and the batching habit that gave you back an afternoon.",
+          "format": "Text"
+        },
+        {
+          "num": 9,
+          "hook": "“I'll get back to you” is a promise my brain can't keep track of.",
+          "prompt": "Share the capture habit that turns every “I'll get back to you” into something you actually follow up on.",
+          "format": "Text"
+        },
+        {
+          "num": 10,
+          "hook": "4 things that make a job description ADHD-friendly (without ever saying ADHD).",
+          "prompt": "One idea per slide: clear outcomes over vague duties, written processes, flexible hours, async options.",
+          "format": "Carousel"
+        }
       ]
     },
     {
       "id": "myths",
       "title": "Myths & reframes",
       "prompts": [
-        { "num": 11, "hook": "ADHD isn't a lack of attention. It's a lack of control over where attention goes.", "prompt": "Unpack the reframe with one everyday example that makes it click for people without ADHD.", "format": "Text" },
-        { "num": 12, "hook": "“Just make a to-do list” is the “just calm down” of productivity advice.", "prompt": "Explain why generic advice backfires, and what actually helps instead.", "format": "Text" },
-        { "num": 13, "hook": "“Lazy” is a story people tell about a wall they can't see.", "prompt": "Describe task paralysis from the inside, kindly and specifically, without self-pity.", "format": "Text" },
-        { "num": 14, "hook": "“Everyone's a little ADHD.” Here's why that line stings.", "prompt": "Explain how casual phrases minimize a real struggle. Be warm, not preachy, and offer a better thing to say.", "format": "Text" },
-        { "num": 15, "hook": "Hyperfocus isn't a superpower. It's a steering problem.", "prompt": "Push back on the superpower narrative with an honest story about where hyperfocus took you that you didn't choose.", "format": "Text" },
-        { "num": 16, "hook": "Discipline didn't fix it. Design did.", "prompt": "Show how changing your environment beat willpower: one before/after setup, with a photo.", "format": "IRL photo" },
-        { "num": 17, "hook": "“I'll remember” is the most expensive sentence I say.", "prompt": "A short, funny-but-true post about everything “I'll remember” has cost you, ending with the capture habit that fixed it.", "format": "Text" },
-        { "num": 18, "hook": "Rest feels like falling behind.", "prompt": "Write about guilt, rest and the ADHD brain, and the permission you had to give yourself.", "format": "Text" },
-        { "num": 19, "hook": "5 things people assume about adults with ADHD (that aren't true).", "prompt": "Myth on one slide, reality on the next. Keep every reality supportable and cite sources in the caption.", "format": "Carousel" },
-        { "num": 20, "hook": "Procrastination isn't a time problem. It's a feeling problem.", "prompt": "Explain the emotional side of avoidance (credit the researchers you draw on) and one way to lower the feeling, not just push through it.", "format": "Text" }
+        {
+          "num": 11,
+          "hook": "ADHD at work isn't a superpower or a disability. It's a fit problem.",
+          "prompt": "Make the case for “mismatch” as the useful frame, with one role that fit and one that didn't.",
+          "format": "Text"
+        },
+        {
+          "num": 12,
+          "hook": "More ADHD diagnoses doesn't mean ADHD is a trend.",
+          "prompt": "Write a balanced take on the debate sparked by the UK government-commissioned review published in October 2026 (assessment quality, rising diagnoses, long waits). Cite it, and make no clinical claims.",
+          "format": "Screenshot"
+        },
+        {
+          "num": 13,
+          "hook": "“You don't look like you have ADHD.” What does it look like, then?",
+          "prompt": "Write a calm, slightly witty reply to the line many adults hear, and say what's usually invisible.",
+          "format": "Text"
+        },
+        {
+          "num": 14,
+          "hook": "Running late isn't disrespect. Here's what's actually going on.",
+          "prompt": "Explain the gap between intending to be on time and being on time, and what helps.",
+          "format": "Text"
+        },
+        {
+          "num": 15,
+          "hook": "For ADHD brains, interest is the fuel. Importance isn't.",
+          "prompt": "Unpack the “interest-based” idea (credit the clinicians who popularised it) with an everyday example.",
+          "format": "Text"
+        },
+        {
+          "num": 16,
+          "hook": "Unfinished projects aren't failures. They're a map of what pulled me in.",
+          "prompt": "Reframe the graveyard of half-done projects, and say which one deserves to be finished.",
+          "format": "IRL photo"
+        },
+        {
+          "num": 17,
+          "hook": "Organisation tips assume you'll remember to use them.",
+          "prompt": "Point out the hidden step in most productivity advice and what to do about it.",
+          "format": "Text"
+        },
+        {
+          "num": 18,
+          "hook": "Many adults don't grow out of ADHD. They grow around it.",
+          "prompt": "Write about the workarounds people quietly build over the years, and which ones are worth teaching earlier.",
+          "format": "Text"
+        },
+        {
+          "num": 19,
+          "hook": "What people get wrong about ADHD and boredom.",
+          "prompt": "Explain why boredom feels unbearable rather than mildly annoying, using a real moment, without medical claims.",
+          "format": "Text"
+        },
+        {
+          "num": 20,
+          "hook": "Accommodations aren't special treatment. They're removing friction.",
+          "prompt": "Five everyday examples, one per slide, that help everyone on a team.",
+          "format": "Carousel"
+        }
       ]
     },
     {
       "id": "lived",
       "title": "Lived experience",
       "prompts": [
-        { "num": 21, "hook": "I was diagnosed at [age]. Here's what I grieved first.", "prompt": "Write about a late diagnosis: the relief, the grief and the rewriting of your own story.", "format": "IRL photo" },
-        { "num": 22, "hook": "Masking all day is a second full-time job.", "prompt": "Describe what masking looks like in a normal workday, and what you no longer hide.", "format": "Text" },
-        { "num": 23, "hook": "The 3pm crash isn't about coffee.", "prompt": "Describe your energy curve honestly and how you now plan the day around it rather than against it.", "format": "Text" },
-        { "num": 24, "hook": "Why one “quick question?” message can wreck my morning.", "prompt": "Write about rejection sensitivity at work, and the small wording change that would help.", "format": "Text" },
-        { "num": 25, "hook": "Time blindness, explained with my actual calendar.", "prompt": "Share a redacted screenshot of planned vs. what really happened, then say what you changed.", "format": "Screenshot" },
-        { "num": 26, "hook": "The pile of clothes on my chair has a system. Let me explain.", "prompt": "A light, self-aware post about the logic behind “doom piles”, with a real photo.", "format": "IRL photo" },
-        { "num": 27, "hook": "What ADHD looks like when you're “high-performing”.", "prompt": "Show the cost behind the output people see: the late nights, the last-minute rescues, the recovery.", "format": "Text" },
-        { "num": 28, "hook": "“Sorry for the late reply” is half my sent folder.", "prompt": "Write about communication guilt, and the reply rhythm you've settled on without apologizing.", "format": "Text" },
-        { "num": 29, "hook": "Things I've stopped apologizing for.", "prompt": "A short list of habits you've made peace with, and the one you're still working on.", "format": "Text" },
-        { "num": 30, "hook": "A letter to my younger self, who thought they were just lazy.", "prompt": "Write the note you needed at 15. Keep it specific to moments, not general encouragement.", "format": "Text" }
+        {
+          "num": 21,
+          "hook": "Diwali deep-clean with ADHD: [N] open projects and one very clean drawer.",
+          "prompt": "A light, honest post about festival cleaning, hyperfocus on the wrong cupboard, and what you actually finished.",
+          "format": "IRL photo"
+        },
+        {
+          "num": 22,
+          "hook": "The hardest day for my routine is the day after a holiday.",
+          "prompt": "Write about re-entry after a break and the smallest step that gets you going again.",
+          "format": "Text"
+        },
+        {
+          "num": 23,
+          "hook": "ADHD Awareness Month just ended. Here's who quietly held me up.",
+          "prompt": "October's theme was “A Community of Support”. Thank the specific people (or kinds of people) who make it easier, and say what they actually do.",
+          "format": "IRL photo"
+        },
+        {
+          "num": 24,
+          "hook": "I waited [N] months for an ADHD assessment. Here's what the wait was like.",
+          "prompt": "Only if it's your story, or shared with permission: the limbo, what helped while waiting, and what you'd tell someone on a list now.",
+          "format": "Text"
+        },
+        {
+          "num": 25,
+          "hook": "The “easy” tasks are the ones that sit on my list for weeks.",
+          "prompt": "Explain why two-minute tasks can be the hardest, using a real one.",
+          "format": "Text"
+        },
+        {
+          "num": 26,
+          "hook": "What “I'm fine, just busy” usually means for me.",
+          "prompt": "Translate the polite phrase honestly and say what kind of check-in actually helps.",
+          "format": "Text"
+        },
+        {
+          "num": 27,
+          "hook": "My phone's screen-time report is a diary I never meant to write.",
+          "prompt": "Share a redacted screenshot and what it told you about your week.",
+          "format": "Screenshot"
+        },
+        {
+          "num": 28,
+          "hook": "I don't forget birthdays because I don't care.",
+          "prompt": "Write about ADHD and relationships: the guilt, the misread intent, and the system that fixed it.",
+          "format": "Text"
+        },
+        {
+          "num": 29,
+          "hook": "The relief of finally having words for it.",
+          "prompt": "Describe the moment language (a diagnosis, a post, a person) made years of experience make sense.",
+          "format": "Text"
+        },
+        {
+          "num": 30,
+          "hook": "Things my brain does brilliantly at 11pm and never at 11am.",
+          "prompt": "A light, relatable list, ending with how you now protect your real peak hours.",
+          "format": "Text"
+        }
       ]
     },
     {
       "id": "systems",
       "title": "Systems, tools & AI",
       "prompts": [
-        { "num": 31, "hook": "My whole productivity system fits on one sticky note.", "prompt": "Photograph it and explain each line. Simplicity is the point.", "format": "IRL photo" },
-        { "num": 32, "hook": "The weirdly effective trick of working next to someone.", "prompt": "Explain body doubling, why it works for so many ADHD brains, and how to try it today.", "format": "Video" },
-        { "num": 33, "hook": "I tried [N] productivity apps. Here's why none of them stuck.", "prompt": "One reason per slide, ending with what a tool would need to get right for ADHD brains.", "format": "Carousel" },
-        { "num": 34, "hook": "AI won't fix ADHD. But it can hold the pieces my brain drops.", "prompt": "An honest take on where AI genuinely helps (capture, breaking down tasks, reminders) and where it doesn't.", "format": "Text" },
-        { "num": 35, "hook": "The 2-minute start: my rule for tasks I've avoided for weeks.", "prompt": "Walk through the rule in 4 steps using one real task you've been dodging.", "format": "Text" },
-        { "num": 36, "hook": "Why my keys go in the same tray every single night.", "prompt": "Show your “launch pad” by the door and explain the thinking behind it.", "format": "IRL photo" },
-        { "num": 37, "hook": "I use timers to make time visible, not to work faster.", "prompt": "Explain visual timers and time blindness, with a photo of your actual timer.", "format": "IRL photo" },
-        { "num": 38, "hook": "Most apps are built to capture attention. That's a problem for brains like mine.", "prompt": "A contrarian take on the attention economy, and what humane design would look like instead.", "format": "Text" },
-        { "num": 39, "hook": "How I plan a week when I can't predict my energy.", "prompt": "Show your flexible weekly plan as a simple visual: must-dos, could-dos, and buffer.", "format": "Infographic" },
-        { "num": 40, "hook": "The most helpful focus tool I own cost nothing.", "prompt": "Reveal it (another person in the room, a walk, a timer) and tell the story of the day you discovered it.", "format": "Text" }
+        {
+          "num": 31,
+          "hook": "My “wins doc” is the file that saves my performance review.",
+          "prompt": "Show the template (redacted) and how you add to it in 30 seconds a week.",
+          "format": "Screenshot"
+        },
+        {
+          "num": 32,
+          "hook": "I outsource remembering, not thinking.",
+          "prompt": "Explain which jobs you hand to tools and AI (capture, reminders, first drafts) and which stay yours.",
+          "format": "Text"
+        },
+        {
+          "num": 33,
+          "hook": "The tab limit that stopped my browser from eating my day.",
+          "prompt": "Share a tab or app limit you actually use, and what changed after a week.",
+          "format": "Screenshot"
+        },
+        {
+          "num": 34,
+          "hook": "I asked AI to plan my week. Here's what it got wrong about ADHD.",
+          "prompt": "Run the test honestly, screenshot the plan, and show what you'd change for a real ADHD week.",
+          "format": "Screenshot"
+        },
+        {
+          "num": 35,
+          "hook": "I set alarms for when to leave, not for when to arrive.",
+          "prompt": "Explain the shift and why it beats “be there at 3”.",
+          "format": "Text"
+        },
+        {
+          "num": 36,
+          "hook": "The “one more thing” trap, and the exit ritual that beats it.",
+          "prompt": "Describe the trap before leaving or stopping, and the small ritual that gets you out the door.",
+          "format": "Text"
+        },
+        {
+          "num": 37,
+          "hook": "Voice notes are my second brain.",
+          "prompt": "Show how you capture ideas while walking, and how they turn into action later.",
+          "format": "Video"
+        },
+        {
+          "num": 38,
+          "hook": "A visible to-do list beats a smart one.",
+          "prompt": "Photograph your paper list or whiteboard and explain why “out of sight, out of mind” is literal.",
+          "format": "IRL photo"
+        },
+        {
+          "num": 39,
+          "hook": "My end-of-day shutdown ritual takes [N] minutes.",
+          "prompt": "Lay out the steps as a simple visual: close loops, park thoughts, set tomorrow's first task.",
+          "format": "Infographic"
+        },
+        {
+          "num": 40,
+          "hook": "What an ADHD-friendly app should never do.",
+          "prompt": "For builders: no guilt streaks, no shame copy, no notification floods. One rule per slide, with why.",
+          "format": "Carousel"
+        }
       ]
     },
     {
       "id": "building",
       "title": "Building Dopami",
       "prompts": [
-        { "num": 41, "hook": "Why I'm building for the 380M people productivity apps forgot.", "prompt": "The vision post: who's underserved, what you saw that others missed, and what Dopami is trying first.", "format": "Text" },
-        { "num": 42, "hook": "A user told me “[quote]”. It changed our roadmap.", "prompt": "Share the quote (with permission), what you heard underneath it, and what you changed because of it.", "format": "Text" },
-        { "num": 43, "hook": "Designing for ADHD minds made our product better for everyone.", "prompt": "Explain the curb-cut effect with one Dopami design decision that helps every user.", "format": "Text" },
-        { "num": 44, "hook": "What designing for ADHD taught me that years of product design didn't.", "prompt": "Contrast lessons from leading design at Flam and Betaflux with what you're learning at Dopami.", "format": "Text" },
-        { "num": 45, "hook": "We cut a feature to make Dopami simpler.", "prompt": "Tell the story only if it happened: what it was, why people liked it, and why less was kinder.", "format": "Text" },
-        { "num": 46, "hook": "Building in public, week [N]: the honest numbers.", "prompt": "Share real progress and real misses. Screenshot one metric you're proud of and one you're not.", "format": "Screenshot" },
-        { "num": 47, "hook": "How many questions should an ADHD app ask on day one?", "prompt": "Walk through your onboarding thinking and where you landed. Invite people to disagree.", "format": "Text" },
-        { "num": 48, "hook": "What investors ask me about building for ADHD, and my answers.", "prompt": "One question per slide, answered plainly and confidently.", "format": "Carousel" },
-        { "num": 49, "hook": "The ADHD community taught me more than any research method.", "prompt": "Credit the communities, coaches and users who shaped Dopami, and say what each one taught you.", "format": "Text" },
-        { "num": 50, "hook": "Looking for ADHD coaches, clinicians and builders who want to shape Dopami.", "prompt": "A clear, warm call-out post: who you need, what they'd influence, and how to reach you.", "format": "Text" }
+        {
+          "num": 41,
+          "hook": "What ADHD Awareness Month taught us at Dopami.",
+          "prompt": "Share real lessons from October's conversations and content: what resonated and what you'll do differently.",
+          "format": "Text"
+        },
+        {
+          "num": 42,
+          "hook": "We asked [N] people what “support” means to them. The answers surprised us.",
+          "prompt": "Only if you ran it: one answer per slide, and what you're changing because of them.",
+          "format": "Carousel"
+        },
+        {
+          "num": 43,
+          "hook": "Why Dopami is built around people, not just AI.",
+          "prompt": "Explain the thinking behind pairing AI with human presence (body doubling, Done Together).",
+          "format": "Text"
+        },
+        {
+          "num": 44,
+          "hook": "The long wait for an ADHD assessment is a design problem too.",
+          "prompt": "Respond to the waiting-list conversation: what tools and communities can offer people while they wait, with no clinical claims.",
+          "format": "Text"
+        },
+        {
+          "num": 45,
+          "hook": "A day in the life of building an ADHD product.",
+          "prompt": "Real moments from one day: calls, design reviews, the messy parts.",
+          "format": "Video"
+        },
+        {
+          "num": 46,
+          "hook": "The mistake we almost made in our first version.",
+          "prompt": "Only if true: what you nearly built, who stopped you, and what you learned.",
+          "format": "Text"
+        },
+        {
+          "num": 47,
+          "hook": "What I look for when hiring for an ADHD-first product.",
+          "prompt": "The traits and experiences that matter more than a perfect CV.",
+          "format": "Text"
+        },
+        {
+          "num": 48,
+          "hook": "Our design rule: never punish someone for coming back late.",
+          "prompt": "Only if it's a real Dopami principle: why missed days shouldn't reset progress, and how you design for return.",
+          "format": "Text"
+        },
+        {
+          "num": 49,
+          "hook": "The question users ask us most, and our honest answer.",
+          "prompt": "Share the most common question from users or the waitlist and answer it plainly.",
+          "format": "Text"
+        },
+        {
+          "num": 50,
+          "hook": "If you've ever opened an app to focus and lost an hour, I'd love to talk.",
+          "prompt": "A warm user-research call-out: who you want to speak with, what you'll ask, and how to book.",
+          "format": "Text"
+        }
       ]
     }
   ],
-  "archive": []
+  "archive": [
+    {
+      "month": "2026-10",
+      "monthLabel": "October 2026",
+      "hooks": [
+        "I didn't miss the deadline because I didn't care. I missed it because I cared too much to start.",
+        "A 30-minute meeting costs my ADHD brain the whole afternoon.",
+        "My best performance review came from my worst habit.",
+        "What I wish my first manager knew about ADHD.",
+        "Open-plan offices are an accessibility issue.",
+        "Job interviews test performance under pressure, not the work itself.",
+        "Should you tell your employer you have ADHD?",
+        "The ADHD tax at work that nobody budgets for.",
+        "Remote work saved my career, and nearly ended it.",
+        "3 tiny changes that help your ADHD teammates (and everyone else).",
+        "ADHD isn't a lack of attention. It's a lack of control over where attention goes.",
+        "“Just make a to-do list” is the “just calm down” of productivity advice.",
+        "“Lazy” is a story people tell about a wall they can't see.",
+        "“Everyone's a little ADHD.” Here's why that line stings.",
+        "Hyperfocus isn't a superpower. It's a steering problem.",
+        "Discipline didn't fix it. Design did.",
+        "“I'll remember” is the most expensive sentence I say.",
+        "Rest feels like falling behind.",
+        "5 things people assume about adults with ADHD (that aren't true).",
+        "Procrastination isn't a time problem. It's a feeling problem.",
+        "I was diagnosed at [age]. Here's what I grieved first.",
+        "Masking all day is a second full-time job.",
+        "The 3pm crash isn't about coffee.",
+        "Why one “quick question?” message can wreck my morning.",
+        "Time blindness, explained with my actual calendar.",
+        "The pile of clothes on my chair has a system. Let me explain.",
+        "What ADHD looks like when you're “high-performing”.",
+        "“Sorry for the late reply” is half my sent folder.",
+        "Things I've stopped apologizing for.",
+        "A letter to my younger self, who thought they were just lazy.",
+        "My whole productivity system fits on one sticky note.",
+        "The weirdly effective trick of working next to someone.",
+        "I tried [N] productivity apps. Here's why none of them stuck.",
+        "AI won't fix ADHD. But it can hold the pieces my brain drops.",
+        "The 2-minute start: my rule for tasks I've avoided for weeks.",
+        "Why my keys go in the same tray every single night.",
+        "I use timers to make time visible, not to work faster.",
+        "Most apps are built to capture attention. That's a problem for brains like mine.",
+        "How I plan a week when I can't predict my energy.",
+        "The most helpful focus tool I own cost nothing.",
+        "Why I'm building for the 380M people productivity apps forgot.",
+        "A user told me “[quote]”. It changed our roadmap.",
+        "Designing for ADHD minds made our product better for everyone.",
+        "What designing for ADHD taught me that years of product design didn't.",
+        "We cut a feature to make Dopami simpler.",
+        "Building in public, week [N]: the honest numbers.",
+        "How many questions should an ADHD app ask on day one?",
+        "What investors ask me about building for ADHD, and my answers.",
+        "The ADHD community taught me more than any research method.",
+        "Looking for ADHD coaches, clinicians and builders who want to shape Dopami."
+      ]
+    }
+  ]
 }
