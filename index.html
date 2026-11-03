@@ -3,49 +3,31 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Today's Writing Prompt</title>
-  <meta name="description" content="One small writing prompt a day, so starting is never the hard part." />
-  <link rel="stylesheet" href="assets/style.css?v=da6f00ef" />
+  <title>Abhi’s Content System</title>
+  <meta name="description" content="Daily writing prompts, B-roll shots, reel ideas, ads, streams and LinkedIn posts for building Dopami." />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  <link rel="stylesheet" href="assets/style.css?v=c369383b" />
 </head>
 <body>
-  <div class="wrap">
-    <div class="nav">
-      <a class="brand" href="index.html"><span aria-hidden="true">✍️</span> Daily Prompt</a>
-      <div class="nav-links">
-        <span class="dot" aria-hidden="true"></span>
-        <a href="topics.html">Browse topics</a>
-        <a href="broll.html">B-roll ideas</a>
-        <a href="reels.html">Reel ideas</a>
-        <a href="ads.html">Ads</a>
-        <a href="streams.html">Streams</a>
-        <a href="linkedin.html">LinkedIn</a>
-        <a href="topics.html#search">Search</a>
-      </div>
-    </div>
+  <div class="wrap wide">
+    <script src="assets/nav.js?v=838f9d98"></script>
 
-    <div class="hero">
-      <div>
-        <p class="eyebrow"><span class="dot"></span> <span id="today-date">Loading…</span></p>
-        <h1>Today,<br />write one thing.</h1>
-        <p class="sub">
-          One prompt, every morning, one sentence to start with. Not a content calendar —
-          just enough of a nudge to open a blank page before the day gets away from you.
-        </p>
-      </div>
-      <svg class="hero-art" viewBox="0 0 260 220" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-        <rect x="30" y="18" width="160" height="186" rx="16" />
-        <line x1="54" y1="58" x2="166" y2="58" />
-        <line x1="54" y1="83" x2="166" y2="83" />
-        <line x1="54" y1="108" x2="142" y2="108" />
-        <line x1="54" y1="133" x2="112" y2="133" stroke-dasharray="2 10" />
-        <g transform="translate(150,108) rotate(45)">
-          <line x1="0" y1="0" x2="0" y2="86" stroke-width="9" />
-          <path d="M -8 86 L 8 86 L 0 104 Z" fill="currentColor" stroke="none" />
-        </g>
-        <path d="M178 188 q9 -11 18 0 q9 11 18 0" />
-      </svg>
-    </div>
+    <p class="eyebrow"><span class="dot"></span> <span id="today-date">Loading…</span></p>
+    <h1>Your content<br />playbook.</h1>
+    <p class="sub">Six libraries for writing, filming and growing Dopami. Pick one, or start with today's prompt below.</p>
 
+    <div class="page-grid" id="page-grid"></div>
+    <script>
+      document.getElementById("page-grid").innerHTML = window.SITE_PAGES.map(function (p) {
+        return '<a class="page-card" href="' + p.href + '" style="--tint:' + p.tint + ';--deep:' + p.color + '">' +
+          '<span class="count">' + p.count + '</span>' + p.icon +
+          '<h3>' + p.name + '</h3><p>' + p.desc + '</p>' +
+          '<span class="go">Open <span aria-hidden="true">→</span></span></a>';
+      }).join("");
+    </script>
+
+    <p class="section-label"><span class="dot"></span> Today's writing prompt</p>
     <div class="hero-card">
       <span class="pillar-tag"><span class="dot"></span> <span id="pillar-tag">—</span></span>
       <h2 class="hero-title" id="prompt-title">Loading today's prompt…</h2>
@@ -64,7 +46,6 @@
     <p class="foot-note">
       This prompt lands in <strong>abhishek@dopami.app</strong> automatically at 9am IST every day.
       The company is the laboratory — write about how you think, not just what you shipped.
-      <br />Browse the full bank by category on the <a href="topics.html">topics page</a>.
     </p>
   </div>
 
@@ -94,8 +75,6 @@
           return `<div class="feature"><h3>${label}</h3><p>${rest}</p></div>`;
         })
         .join("");
-
-      document.title = `${today.title} — Today's Writing Prompt`;
     }
 
     init();

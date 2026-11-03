@@ -1,4 +1,4 @@
-# Daily Writing Prompt
+# Abhi’s Content System
 
 A small site + automation that:
 
@@ -101,6 +101,13 @@ it moves the current month's hooks into `archive`, writes 50 new ADHD prompts (5
 reuse any archived hook, runs `node scripts/validate-linkedin-viral.mjs`, commits, pushes and redeploys the
 site. The LinkedIn page shows the current month and lists past months under "Previous months".
 
+## Adding a page
+
+Add one entry to `PAGES` in [`assets/nav.js`](assets/nav.js) (name, link, colors, count, description, icon). It
+appears in the Menu dropdown on every page and as a card on the home page. Then create the page itself with
+`<script src="assets/nav.js?v=…"></script>` where the header goes. After changing `style.css` or `nav.js`, update
+the `?v=` hash on every page so phones don't keep a cached copy.
+
 ## Testing
 
 **Preview an email without sending it:**
@@ -141,7 +148,9 @@ assets/rotation.js                  shared "what's today's prompt" logic (site +
 assets/reelRotation.js              shared "this week's 3 reel ideas" logic (site + weekly email)
 assets/copy.js                      shared nudge / starter-question copy (site + daily email)
 assets/style.css                    site styling
-index.html                          today's prompt + nudge
+assets/nav.js                       the page list + shared header (logo and Menu dropdown); the home cards read from it
+assets/avatar.png, favicon.png, apple-touch-icon.png   logo and browser-tab icons
+index.html                          home: a card per page, then today's prompt + nudge
 topics.html                         browse all writing prompts by category, with search
 broll.html                          browse all B-roll shots by category, with a random shooting tip
 reels.html                          browse all 100 reel ideas by pillar
