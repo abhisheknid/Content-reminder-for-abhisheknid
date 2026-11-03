@@ -821,6 +821,25 @@ h1 {
   .page-card:hover, .page-card:hover .icon, .page-card:hover .go span { transform: none; }
 }
 
+/* Mobile: sleek pill banners, title only */
+@media (max-width: 599px) {
+  .page-grid { gap: 12px; margin-bottom: 40px; }
+  .page-card {
+    min-height: 0;
+    height: 64px;
+    padding: 0 24px;
+    gap: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 999px;
+    text-align: center;
+  }
+  .page-card .icon, .page-card p, .page-card .go, .page-card .count { display: none; }
+  .page-card h3 { margin: 0; font-size: 18px; line-height: 1.2; }
+  .page-card:active { transform: scale(0.98); }
+}
+
 .section-label {
   display: flex;
   align-items: center;

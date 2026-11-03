@@ -5,7 +5,7 @@
 
   var PAGES = [
     {
-      href: "topics.html", name: "Browse topics", color: "#E0A82E", tint: "#FFF1C9", count: "230 prompts",
+      href: "topics.html", name: "Writing Topics", color: "#E0A82E", tint: "#FFF1C9", count: "230 prompts",
       desc: "Every writing prompt across 12 pillars, searchable, with today’s pick highlighted.",
       icon: '<svg class="icon" viewBox="0 0 72 72" aria-hidden="true"><rect x="14" y="12" width="40" height="50" rx="8" fill="#F6D27A"/><rect x="20" y="8" width="40" height="50" rx="8" fill="#E0A82E"/><rect x="28" y="20" width="24" height="4" rx="2" fill="#fff"/><rect x="28" y="30" width="24" height="4" rx="2" fill="#fff" opacity=".8"/><rect x="28" y="40" width="14" height="4" rx="2" fill="#fff" opacity=".6"/></svg>'
     },
