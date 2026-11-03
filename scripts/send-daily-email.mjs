@@ -10,7 +10,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DRY_RUN = process.env.DRY_RUN === "1";
 const GMAIL_USER = DRY_RUN ? process.env.GMAIL_USER || "dry-run@example.com" : requireEnv("GMAIL_USER");
 const GMAIL_APP_PASSWORD = DRY_RUN ? "dry-run" : requireEnv("GMAIL_APP_PASSWORD");
-const EMAIL_TO = process.env.EMAIL_TO || "abhishek@dopami.app";
+const EMAIL_TO = process.env.EMAIL_TO || "abhishek@dopami.app, abhishekonine@gmail.com";
 const SITE_URL = (process.env.SITE_URL || "https://abhisheknid.github.io/Content-reminder-for-abhisheknid").replace(/\/$/, "");
 
 function requireEnv(name) {

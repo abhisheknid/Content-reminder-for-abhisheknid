@@ -74,7 +74,7 @@ In the repo: **Settings → Secrets and variables → Actions**
 **Variables** (Variables tab, optional — sensible defaults are built in):
 | Name | Default | Purpose |
 |---|---|---|
-| `EMAIL_TO` | `abhishek@dopami.app` | Who receives the emails |
+| `EMAIL_TO` | daily email: `abhishek@dopami.app, abhishekonine@gmail.com`; weekly reels email: `abhishek@dopami.app` | Who receives the emails (comma-separated for several) |
 | `SITE_URL` | `https://abhisheknid.github.io/Content-reminder-for-abhisheknid` | Linked from both emails; update if you rename the repo or use a custom domain. Case matters — must match the repo name's exact casing. |
 
 (These secrets/variables are shared by both `daily-email.yml` and `weekly-reels-email.yml`.)
