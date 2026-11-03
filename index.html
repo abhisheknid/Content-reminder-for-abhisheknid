@@ -7,14 +7,14 @@
   <meta name="description" content="Daily writing prompts, B-roll shots, reel ideas, ads, streams and LinkedIn posts for building Dopami." />
   <link rel="icon" type="image/png" href="assets/favicon.png" />
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
-  <link rel="stylesheet" href="assets/style.css?v=a7aedd89" />
+  <link rel="stylesheet" href="assets/style.css?v=9f97c2a3" />
 </head>
 <body>
   <div class="wrap wide">
     <script src="assets/nav.js?v=7c2e03ec"></script>
 
     <p class="eyebrow"><span class="dot"></span> <span id="today-date">Loading…</span></p>
-    <h1>Your content<br />playbook.</h1>
+    <h1>Don’t think.<br />Just Post</h1>
     <p class="sub">Use one idea everyday and apply.</p>
 
     <div class="page-grid" id="page-grid"></div>
@@ -23,7 +23,8 @@
         return '<a class="page-card" href="' + p.href + '" style="--tint:' + p.tint + ';--deep:' + p.color + '">' +
           '<span class="count">' + p.count + '</span>' + p.icon +
           '<h3>' + p.name + '</h3><p>' + p.desc + '</p>' +
-          '<span class="go">Open <span aria-hidden="true">→</span></span></a>';
+          '<span class="go">Open <span aria-hidden="true">→</span></span>' +
+          '<svg class="chev" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3.5 L10.5 8 L6 12.5"/></svg></a>';
       }).join("");
     </script>
 

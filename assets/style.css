@@ -821,22 +821,26 @@ h1 {
   .page-card:hover, .page-card:hover .icon, .page-card:hover .go span { transform: none; }
 }
 
-/* Mobile: sleek pill banners, title only */
+/* Mobile: sleek pill banners - icon, left-aligned title, chevron */
+.page-card .chev { display: none; }
+
 @media (max-width: 599px) {
   .page-grid { gap: 12px; margin-bottom: 40px; }
   .page-card {
     min-height: 0;
-    height: 64px;
-    padding: 0 24px;
-    gap: 0;
+    height: 68px;
+    padding: 0 20px 0 14px;
+    gap: 14px;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     border-radius: 999px;
-    text-align: center;
+    text-align: left;
   }
-  .page-card .icon, .page-card p, .page-card .go, .page-card .count { display: none; }
-  .page-card h3 { margin: 0; font-size: 18px; line-height: 1.2; }
+  .page-card p, .page-card .go, .page-card .count { display: none; }
+  .page-card .icon { flex: none; width: 44px; height: 44px; }
+  .page-card h3 { flex: 1; margin: 0; font-size: 18px; line-height: 1.2; text-align: left; }
+  .page-card .chev { display: block; flex: none; width: 20px; height: 20px; color: #14130f; opacity: 0.55; }
   .page-card:active { transform: scale(0.98); }
 }
 
